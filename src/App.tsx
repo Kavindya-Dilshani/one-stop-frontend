@@ -16,7 +16,7 @@ function App() {
       <AuthProvider>
         <>
           <Header />
-          <div className='content-body'>
+          <div className='content-body py-5'>
             <Routes>
               {/* private routes */}
               <Route element={<PrivateRoutes />}>
