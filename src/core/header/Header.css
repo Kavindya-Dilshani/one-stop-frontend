@@ -7,3 +7,9 @@
     padding-left:30px;
     padding-right:30px;
   }
+  
+  .carousel-container .carousel-item img {
+    height: 300px; /* Adjust the height as needed */
+  };
+    
+
