@@ -1,0 +1,14 @@
+.Offer1-section{
+    width: 100%;
+    height: 28.125rem;
+    background: url('../../assets/images/banner4.jpg') no-repeat center;
+    background-size: cover;
+    padding-top: 100px;
+    text-align:end;
+}
+
+.Offer1-section h1{
+    color:darkgreen;
+}
+
+
