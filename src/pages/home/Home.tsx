@@ -1,7 +1,7 @@
 import { Cards } from '../../components/card/Card';
 import Carousel from '../../components/Carousel';
 import { Category } from '../../components/Category';
-import './Home.css';
+import { Offer } from '../../components/offer/Offer';
 
 
 export const Home = () => {
@@ -13,8 +13,11 @@ export const Home = () => {
                 <Category />
                 <h3 className='py-5 text-center'> Best Products</h3>
                 <Cards/>
-               
+                <Offer/>
                 </div>
+
+                
+    
             
         </>
     )
