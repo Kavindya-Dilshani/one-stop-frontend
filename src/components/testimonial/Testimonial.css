@@ -1,0 +1,19 @@
+.testimonial .testimonial-wrapper{
+    box-shadow: 0 0 0.563rem 0 rbg(0 0 0  / 5%);
+    background-color:black;
+    margin: auto;
+    padding: 1rem 5rem;
+    border: 0.063rem solid crimson ;
+    border-radius: 0.625rem;
+}
+
+.testimonial .testimonial-wrapper img{
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+    margin: 1.25rem auto;
+    object-fit: cover;
+    background-color: blanchedalmond;
+    border: 0.063rem solid cornsilk;
+
+}

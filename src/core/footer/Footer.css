@@ -1,0 +1,31 @@
+
+.footer_wrapper{
+    background-color:dimgray;
+}
+.footer_wrapper img {
+    height: 35px;
+    width: 35px;
+}
+
+.footer_wrapper h5{
+    color: black;
+} 
+
+.footer_wrapper ul li{
+    list-style: none;
+    font-size: .875rem;
+}
+
+.footer_wrapper ul li a{
+    color: aliceblue;
+}
+
+.footer_wrapper ul li a,
+.footer_wrapper ul li p{
+    color: aliceblue;
+    font-size: .875rem;
+    padding-left: 1.5rem;
+    position: relative;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
