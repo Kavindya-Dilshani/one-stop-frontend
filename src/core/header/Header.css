@@ -1,15 +1,57 @@
+
 .header img {
-    height: 35px;
-    width: 35px;
+    height: 70px;
+    width: 70px;
+    margin-right: 0px !important;
+
 }
+.header h3{
+  color: black;
+    font-family: "Times New Roman", Times, serif;
+   font-weight: bold;
+  }
+
 
 .navbar-nav > li{
     padding-left:30px;
     padding-right:30px;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+   font-weight: bold;
+
+  }
+  .navbar-nav li a{
+    color: black;
+    font-weight: bold;
+  }
+  .navbar-nav li a:hover{
+    color: green;
+  }
+ 
+.navbar-nav  div{
+    padding-left:30px;
+    padding-right:30px;
+    margin-right: 0px !important;
   }
   
-  .carousel-container .carousel-item img {
-    height: 300px; /* Adjust the height as needed */
-  };
-    
+   
+  .navbar-nav  .icons li:hover{
+    background: green;
+    color: #fff;
+  }
+  .navbar-nav search-form{
+    position: absolute;
+    top: 110%; right: 2rem;
+    width: 50rem;
+    height: 4rem;
+    background: #fff;
+    border-radius: 5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+
+
+
+ 
 

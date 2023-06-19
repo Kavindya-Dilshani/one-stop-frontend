@@ -1,7 +1,6 @@
 import './Carousel.css';
-import banner1 from '../assets/images/banner1.png';
-import banner2 from '../assets/images/banner2.png';
-import banner3 from '../assets/images/banner3.png';
+
+
 
 
 export const Carousel = () => {
@@ -10,17 +9,46 @@ export const Carousel = () => {
       <div className="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-      <div className="carousel-inner">
+      <div className="carousel-inner py-12">
         <div className="carousel-item active">
-          <img src={banner1} className="d-block w-100" alt="banner1"></img>
+          <section id='home'>
+            <div className='container-fluid px-0 top-banner'>
+              <div className='container'>
+                <div className='row'>
+                  <div className=' col-sm-12'>
+                    <h3 className='fs-4'> 100% All Natural Products</h3>
+                    <p className='fs-1'><span>Get Best Organic</span> Grocery
+                      Products
+                    </p>
+                    <div className='mt-4'>
+                      <button className='main-btn'>Shop Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
         <div className="carousel-item">
-          <img src={banner2} className="d-block w-100" alt="banner2"></img>
-        </div>
-        <div className="carousel-item">
-          <img src={banner3} className="d-block w-100" alt="banner3"></img>
+          
+            <div className='container-fluid px-0 top-banner1'>
+              <div className='container'>
+                <div className='row'>
+                  <div className=' col-sm-12'>
+                  <div className="text-content-end"/>
+                    <h3 className='fs-4'> 100% All Natural Products</h3>
+                    <h2><span>Get Best Organic</span> Grocery
+                      Products
+                    </h2>
+                    <div className='mt-4'>
+                      <button className='main-btn'>Shop Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
         </div>
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -36,5 +64,30 @@ export const Carousel = () => {
 }
 
 export default Carousel;
+
+
+
+/*export const Carousel = () => {
+  return (
+  <section id='home'>
+    <div className='container-fluid px-0 top-banner'>
+      <div className='container'>
+        <div className='row'>
+          <div className=' col-12'>
+          <h3> 100% All Natural Products</h3>
+          <h2><span>Get Best Organic</span> Grocery 
+          Products
+          </h2>
+          <div className='mt-4'>
+            <button className='main-btn'>Shop Now</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  )
+}*/
+
 
 

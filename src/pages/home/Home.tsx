@@ -1,5 +1,5 @@
 import { Cards } from '../../components/card/Card';
-import Carousel from '../../components/Carousel';
+import {Carousel} from '../../components/Carousel';
 import { Category } from '../../components/Category';
 import { Offer } from '../../components/offer/Offer';
 import { Card1 } from '../../components/card/Card1';
