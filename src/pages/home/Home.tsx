@@ -13,7 +13,7 @@ export const Home = () => {
         <>
             <div>
                 <Carousel />
-                <h2 className='py-5 text-center'> Our Products</h2>
+                <h2 className='py-5 fs-1 text-center'> Our Products</h2>
                 <Category />
                 <h3 className='py-5 text-center'> Best Products</h3>
                 <Cards/>

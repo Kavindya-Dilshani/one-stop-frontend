@@ -6,18 +6,18 @@ export const Category = () => {
 
     return (
         <>
-            <div className='row category mx-0'>
+            <div className='row category mx-3'>
                 {categories && categories.map((category, index) => {
                     return (
                         <div className='col' key={index}>
-                            <div className='card'>
+                            <div className='category'>
                                 <div className='cat-image p-3 text-center'>
                                     <a className='link-category-product' href='#'>
                                         <img src={category.image} className="img-fluid" alt={category.altValue} />
                                     </a>
                                 </div>
                             </div>
-                            <div className='cat-title text-center pt-2'>
+                            <div className='category-title text-center pt-2'>
                                 <h3>{category.title}</h3>
                             </div>
                         </div>
