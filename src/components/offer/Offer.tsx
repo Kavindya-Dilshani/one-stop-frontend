@@ -1,6 +1,6 @@
 import './Offer.css';
 import { OfferConfig } from '../../utilities/config/OfferConfig';
-import banner1 from '../../assets/images/banner1.jpg';
+import banner2 from '../../assets/images/banner2.jpg';
 
 
 export const Offer = () => {
@@ -24,10 +24,6 @@ export const Offer = () => {
                     );
                 })
                 }
-            </div>
-            <div className='Offer image'>
-                <img src={banner1} className="img-fluid" />
-
             </div>
         </>
     );

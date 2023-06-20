@@ -47,6 +47,10 @@ export const Header = () => {
                                 <li><a href='#'><i className='fa fa-shopping-cart'></i><FaShoppingCart /> </a></li>
                         </ul>
                     </div>
+                    <div className='search'>
+                    <input type='search' placeholder='search here'>
+                        </input>
+                    </div>
                 </div>
             </nav>
         </>

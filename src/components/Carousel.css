@@ -1,15 +1,15 @@
 .top-banner  {
     width: 100%;
-    height: 100%;
-    background-image: url('../assets/images/banner1.jpg');
+    height: auto;
+    background-image: url('../assets/images/banner1.png');
     background-size: cover;
     padding: 16.675rem 0 9.375rem;
   }
 
   .top-banner1  {
     width: 100%;
-    height: 100%;
-    background-image: url('../assets/images/banner1.jpg');
+    height: auto;
+    background-image: url('../assets/images/banner1.png');
     background-size: cover;
     padding: 16.675rem 0 9.375rem;
   }

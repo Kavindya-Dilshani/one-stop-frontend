@@ -1,0 +1,37 @@
+.special{
+    width: 100%;
+    height: auto;
+    background: url('../../assets/images/banner1.png');
+    background-size: cover;
+    padding: 10px 20px;
+}
+
+.special .countdown-container{
+    padding-top: 4.375rem;
+}
+
+.special .countdown-container p{
+    color: black;
+    font-weight: bold;
+    line-height: 2.875rem;
+}
+
+.special .countdown-container .countdown-counter{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1.875rem;
+}
+
+.special .countdown-container .countdown-counter li{
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-align: center;
+    background: aliceblue;
+    border-radius: 0.313rem;
+    padding: 2rem 1rem;
+    width: 15%;
+    margin: 0 0.313rem;
+}
