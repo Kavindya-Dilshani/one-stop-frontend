@@ -10,7 +10,7 @@ export const Header = () => {
             <nav className="header navbar navbar-expand-lg  navigation-wrap">
                 <div className="container">
                     <a className="navbar-brand" href="#" />
-                    <img className="navbar-brand" src={logo}/>
+                    <img className="navbar-brand" src={logo} />
                     <h3>One Stop</h3>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -42,14 +42,12 @@ export const Header = () => {
                                 <a className="nav-link" href="#contact">Contact</a>
                             </li>
                             <div className='icons' />
-                                <li><a href='#'><i className='fa fa-search'></i><FaSistrix /> </a></li>
-                                <li><a href='#'><i className='fa fa-user'></i><FaUserAlt /> </a></li>
-                                <li><a href='#'><i className='fa fa-shopping-cart'></i><FaShoppingCart /> </a></li>
+                            <li><a href='#'><i className='fa fa-search'></i><FaSistrix /> </a></li>
+                            <li><a href='#'><i className='fa fa-user'></i><FaUserAlt /> </a></li>
+                            <li><a href='#'><i className='fa fa-shopping-cart'></i><FaShoppingCart /> </a></li>
                         </ul>
                     </div>
                     <div className='search'>
-                    <input type='search' placeholder='search here'>
-                        </input>
                     </div>
                 </div>
             </nav>

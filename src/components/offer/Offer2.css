@@ -1,19 +1,26 @@
 .special{
-    width: 100%;
-    height: auto;
-    background: url('../../assets/images/banner1.png');
-    background-size: cover;
-    padding: 10px 20px;
+    background: url('../../assets/images/fish.png');
+    background-size:cover;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 10px;
 }
 
 .special .countdown-container{
     padding-top: 4.375rem;
+    padding-bottom:4.375rem ;
+}
+
+.special .countdown-container h2{
+    color: white;
 }
 
 .special .countdown-container p{
-    color: black;
+    color:white;
     font-weight: bold;
     line-height: 2.875rem;
+    text-indent: 5px;
+    font-family: "Georgia";
 }
 
 .special .countdown-container .countdown-counter{
@@ -34,4 +41,15 @@
     padding: 2rem 1rem;
     width: 15%;
     margin: 0 0.313rem;
+}
+
+.special .countdown-container button{
+    color: black;
+    background-color:darkseagreen;
+    border: none;
+    padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
 }

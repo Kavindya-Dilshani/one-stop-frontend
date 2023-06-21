@@ -20,11 +20,12 @@ export const Home = () => {
                 <Cards/>
                 <h3 className='py-4 '></h3>
                 <Offer2/>
-                <Offer/>
                 <Card1/>
-                <Offer1/>
+                <Offer/>
                 <h4 className='py-5 text-center'> Top Deals Discount</h4>
                 <Carousel1/>
+                <h3 className='py-4 '></h3>
+                <Offer1/>
                 <h2 className='py-5 text-center'> Customer Review</h2>
                 <Testimonial/>
                 <Banner/>

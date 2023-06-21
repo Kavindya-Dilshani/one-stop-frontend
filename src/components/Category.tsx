@@ -6,7 +6,7 @@ export const Category = () => {
 
     return (
         <>
-            <div className='row category mx-3'>
+            <div className='row category mx-0'>
                 {categories && categories.map((category, index) => {
                     return (
                         <div className='col' key={index}>
