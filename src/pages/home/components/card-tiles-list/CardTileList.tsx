@@ -1,21 +1,21 @@
-import './Card.css';
+import './CardTileList.css';
 import Button from 'react-bootstrap/Button';
-import { CardConfig } from '../../utilities/config/CardConfig';
+import { CardConfig } from '../../../../utilities/config/CardConfig';
 import { FaEye } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 
 
-export const Cards = () => {
-    const Cards = CardConfig.CardList;
+export const CardTileList = () => {
+    const cards = CardConfig.CardTileData;
 
     return (
         <>
             <div className='container'></div>
             <div className='row'></div>
             <div className='row row-cols-1 row-cols-md-4 g-4'>
-                {Cards && Cards.map((_card, index) => {
+                {cards && cards.map((_card, index) => {
                     return (
                         <div className='col' key={index}>
                             <div className='card'>

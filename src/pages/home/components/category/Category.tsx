@@ -1,5 +1,5 @@
 import './Category.css';
-import { CategoryConfig } from '../utilities/config/CategoryConfig';
+import { CategoryConfig } from '../../../../utilities/config/CategoryConfig';
 
 export const Category = () => {
     const categories = CategoryConfig.categoryList;

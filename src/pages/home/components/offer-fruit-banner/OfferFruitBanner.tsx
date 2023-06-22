@@ -1,11 +1,11 @@
 import { Button } from 'react-bootstrap';
-import './Offer1.css';
+import './OfferFruitBanner.css';
 
 
-export const Offer1 = () => {
+export const OfferFruitBanner = () => {
     return (
-        <section id="Offer1">
-            <div className="Offer1-section">
+        <section id="OfferFruitBanner">
+            <div className="OfferFruitBanner-section">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-12">

@@ -1,7 +1,7 @@
 
-import './Offer2.css';
+import './OfferFishBanner.css';
 
-export const Offer2 = () => {
+export const OfferFishBanner = () => {
   return (
     <section id="special" className="special">
         <div className="container">

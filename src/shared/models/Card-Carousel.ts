@@ -1,6 +1,5 @@
-export interface Card1Details {
+export interface CarouselDetails {
     title: string,
     image: string,
     path: string,
-    
 }

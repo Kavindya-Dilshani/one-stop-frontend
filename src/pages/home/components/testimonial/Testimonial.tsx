@@ -1,6 +1,5 @@
-import user1 from "../../assets/images/user1.jpg";
-import user2 from "../../assets/images/user2.jpg";
-import user3 from "../../assets/images/user3.jpg";
+import User2 from '../../../../assets/images/User2.jpg';
+
 import './Testimonial.css';
 
 
@@ -25,7 +24,7 @@ export const Testimonial = () => {
                                 <div className="testimonial-wrapper">
                                     <div className="row">
                                         <div className="col-sm-12">
-                                            <img src={user1} className="img-fluid" alt="" />
+                                            <img src={User2} className="img-fluid" alt="" />
                                         </div>
                                         <div className="userName">
                                             <p>Some representative placeholder content for the first slide</p>
@@ -38,7 +37,7 @@ export const Testimonial = () => {
                                 <div className="testimonial-wrapper">
                                     <div className="row">
                                         <div className="col-sm-12">
-                                            <img src={user2} className="img-fluid" alt="" />
+                                            <img src={User2} className="img-fluid" alt="" />
                                         </div>
                                         <div className="userName">
                                             <p>Some representative placeholder content for the first slide</p>
@@ -50,7 +49,7 @@ export const Testimonial = () => {
                                     <div className="testimonial-wrapper">
                                         <div className="row">
                                             <div className="col-sm-12">
-                                                <img src={user2} className="img-fluid" alt="" />
+                                                <img src={User2} className="img-fluid" alt="" />
                                             </div>
                                             <div className="userName">
                                                 <p>Some representative placeholder content for the first slide</p>

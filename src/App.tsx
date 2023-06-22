@@ -8,6 +8,7 @@ import { Profile } from './pages/profile/Profile';
 import { Login } from './pages/login/Login';
 import { Signup } from './pages/signup/Signup';
 import { Home } from './pages/home/Home';
+import { Shop } from './pages/shop/Shop';
 
 
 
@@ -22,6 +23,7 @@ function App() {
               {/* private routes */}
               <Route element={<PrivateRoutes />}>
                 <Route path='/profile' element={<Profile />}></Route>
+                <Route path='/shop' element={<Shop />}></Route>
               </Route>
               {/* public routes */}
               <Route path='/login' element={<Login />}></Route>

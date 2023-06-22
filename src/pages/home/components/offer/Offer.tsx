@@ -1,6 +1,6 @@
 import './Offer.css';
-import { OfferConfig } from '../../utilities/config/OfferConfig';
-import banner2 from '../../assets/images/banner2.jpg';
+import { OfferConfig } from '../../../../utilities/config/OfferConfig';
+
 
 
 export const Offer = () => {

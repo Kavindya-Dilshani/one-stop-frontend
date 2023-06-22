@@ -11,16 +11,25 @@ import Product8 from '../../assets/images/Product8.png';
 
 
 
-const CardList: CardDetails[] = [
-    { title: 'Apple', image: Product1 , path: '' },
-    { title: 'Bread', image: Product6 , path: '' },
-    { title: 'Cabbage', image: Product3 , path: '' },
-    { title: 'Grapes', image: Product4 , path: '' },
-    { title: 'Chicken', image: Product5 , path: '' },
+const CardTileData: CardDetails[] = [
+    { title: 'Apple', image: Product1, path: '' },
+    { title: 'Bread', image: Product6, path: '' },
+    { title: 'Cabbage', image: Product3, path: '' },
+    { title: 'Grapes', image: Product4, path: '' },
+    { title: 'Chicken', image: Product5, path: '' },
     { title: 'Lemon', image: Product2, path: '' },
     { title: 'Eggs', image: Product7, path: '' },
-    { title: 'Onions', image: Product8 , path: '' },
-   
+    { title: 'Onions', image: Product8, path: '' },
+
 ];
 
-export const CardConfig = { CardList };
+const CardListData: CardDetails[] = [
+    { title: 'Apple', image: Product2, path: '' },
+    { title: 'Chicken', image: Product2, path: '' },
+    { title: 'Carrot', image: Product2, path: '' },
+    { title: 'Grapes', image: Product2, path: '' },
+    { title: 'Beef', image: Product2, path: '' },
+    { title: 'Tomato', image: Product2, path: '' },
+];
+
+export const CardConfig = { CardTileData, CardListData };

@@ -1,8 +1,8 @@
-import { Carousel1Details } from "../../shared/models/Carousel1";
+import { CarouselDetails } from "../../shared/models/Card-Carousel";
 import Strawberry from '../../assets/images/Strawberry.jpg';
 
 
-const carousel1List: Carousel1Details[] = [
+const CardCarouselData: CarouselDetails[] = [
     { title: 'Strawberry', image: Strawberry, path: '' },
     { title: 'Strawberry', image: Strawberry, path: ''},
     { title: 'Strawberry', image: Strawberry, path: ''},
@@ -10,4 +10,4 @@ const carousel1List: Carousel1Details[] = [
     
 ];
 
-export const Carousel1Config = { carousel1List };
+export const CarouselConfig = { CardCarouselData };

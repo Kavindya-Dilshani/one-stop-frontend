@@ -1,9 +1,9 @@
-import './Card1.css';
-import { Card1Config } from '../../utilities/config/Card1Config';
+import './CardListList.css';
 import background from '../../assets/images/background image.jpg';
+import { CardConfig } from '../../../../utilities/config/CardConfig';
 
-export const Card1 = () => {
-    const Card1 = Card1Config.Card1List;
+export const CardListList = () => {
+    const cards = CardConfig.CardListData;
 
     /*return (
         <>
@@ -39,12 +39,12 @@ export const Card1 = () => {
         <>
 
             <div className="card1 mb-2" >
-                {Card1 && Card1.map((card1, index) => {
+                {cards && cards.map((item, index) => {
                     return (
                         <div className='col' key={index}>
                             <div className="row g-0">
                                 <div className="col-md-4 text-top">
-                                    <img src={card1.image} className="img-fluid rounded-start" />
+                                    <img src={item.image} className="img-fluid rounded-start" />
                                 </div>
                                 <div className="col-md-8">
                                     <div className="card-body">
