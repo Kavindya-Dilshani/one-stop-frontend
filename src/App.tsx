@@ -9,6 +9,7 @@ import { Login } from './pages/login/Login';
 import { Signup } from './pages/signup/Signup';
 import { Home } from './pages/home/Home';
 import { Shop } from './pages/shop/Shop';
+import { About } from './pages/about/About';
 
 
 
@@ -24,6 +25,7 @@ function App() {
               <Route element={<PrivateRoutes />}>
                 <Route path='/profile' element={<Profile />}></Route>
                 <Route path='/shop' element={<Shop />}></Route>
+                <Route path='/about' element={<About/>}></Route>
               </Route>
               {/* public routes */}
               <Route path='/login' element={<Login />}></Route>
