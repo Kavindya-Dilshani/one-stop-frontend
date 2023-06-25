@@ -11,7 +11,7 @@ export const Header = () => {
             <nav className="header navbar navbar-expand-lg  navigation-wrap">
                 <div className="container">
                     <Link className="navbar-brand" to="/home" >
-                        <img className="navbar-brand" src={logo} />
+                        <img className="navbar-brand" src={logo}/> 
                         <h3>One Stop</h3>
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

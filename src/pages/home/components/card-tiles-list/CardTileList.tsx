@@ -14,7 +14,7 @@ export const CardTileList = () => {
         <>
             <div className='container'></div>
             <div className='row'></div>
-            <div className='row row-cols-1 row-cols-md-4 g-4'>
+            <div className='row row-cols-2 row-cols-md-4 g-2'>
                 {cards && cards.map((_card, index) => {
                     return (
                         <div className='col' key={index}>

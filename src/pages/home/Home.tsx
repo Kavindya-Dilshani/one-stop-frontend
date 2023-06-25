@@ -20,9 +20,10 @@ export const Home = () => {
                 <CardTileList/>
                 <h3 className='py-4 '></h3>
                 <OfferFishBanner/>
+                <h4 className='py-5 text-center'> Top Deals Discount</h4>
                 <CardListList/>
                 <Offer/>
-                <h4 className='py-5 text-center'> Top Deals Discount</h4>
+                <h4 className='py-5 text-center'> Recently Landed</h4>
                 <CardCarousel/>
                 <OfferFruitBanner/>
                 <h2 className='py-5 text-center'> Customer Review</h2>

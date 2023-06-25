@@ -1,7 +1,11 @@
-import React from 'react'
+import {ShopCard} from '../../pages/shop/components/shop-card/ShopCard';
 
 export const Shop = () => {
   return (
-    <div>Shop</div>
-  )
+    <>
+        <div>
+            <ShopCard />
+            </div>
+    </>
+)
 }
