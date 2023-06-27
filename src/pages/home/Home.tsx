@@ -22,6 +22,7 @@ export const Home = () => {
                 <OfferFishBanner/>
                 <h4 className='py-5 text-center'> Top Deals Discount</h4>
                 <CardListList/>
+                <h3 className='py-5 '></h3>
                 <Offer/>
                 <h4 className='py-5 text-center'> Recently Landed</h4>
                 <CardCarousel/>

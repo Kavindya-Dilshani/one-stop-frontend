@@ -21,17 +21,24 @@ export const AboutUs = () => {
             <img src={aboutimage2} className="img-fluid" alt='' />
           </div>
           <div className='row py-3'>
+          <div className='col-lg-3'>
           </div>
-          <div className='col-lg-3 '>
             <p >Welcome</p>
-            <h2>One Stop Grocery Store</h2>
-          </div>
-          <p className='py-4'>sellers who aspire to be good, do good, and spread goodness.
+            <h2 >One Stop Grocery Store</h2>
+          <p>sellers who aspire to be good, do good, and spread goodness.
             <br />
             We democratic, self-sustaining, two-sided marketplace which thrives<br />  on trust
             and is built on community and quality content.</p>
             </div>  
         </div>
+        </div>
     </section>
   )
 }
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+.container{
+    padding-top: 1rem;
+}
+
+.counter-section{
+    background-color: darkgreen;
+    padding: 1.5rem 0;
+    
+    
+}
+.counter-section p{
+    color: white;
+    text-transform: uppercase;
+}

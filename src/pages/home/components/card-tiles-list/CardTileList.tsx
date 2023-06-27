@@ -1,13 +1,13 @@
 import './CardTileList.css';
 import Button from 'react-bootstrap/Button';
-import { CardConfig } from '../../../../utilities/config/CardConfig';
+import { CardTileListConfig } from '../../../../utilities/config/CardTileListConfig';
 import { FaEye } from "react-icons/fa";
-import { FaShoppingCart } from "react-icons/fa";
+import { FaShoppingBasket } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 
 
-export const CardTileList = () => {
+/*export const CardTileList = () => {
     const cards = CardConfig.CardTileData;
 
     return (
@@ -51,7 +51,64 @@ export const CardTileList = () => {
             </div>
         </>
     );
+}*/
+
+
+
+
+export const CardTileList = () => {
+    const cards = CardTileListConfig.CardTileData;
+    return (
+        <>
+            <section className='CardTileList' id='CardTileList'>
+                <div className='CardTileList-container'>
+                    <div className='row'>
+                        <div className='box'>
+                            <div className='row row-cols-1 row-cols-md-4 g-4'>
+                                {cards && cards.map((_card, index) => {
+                                    return (
+                                        <div className='col' key={index}>
+                                            <div className='card'>
+                                                <div className='product-image p-6  text-center'>
+                                                    <a className='link-card-product' href='#'>
+                                                        <img src={_card.image} className="card-img-top" />
+                                                    </a>
+                                                    <div className='category-star'>
+                                                        <ul>
+                                                            <a href='#'><i className='fab fa-facebook-f'></i><FaStar /></a>
+                                                            <a href='#'><i className='fab fa-facebook-f'></i><FaStar /></a>
+                                                            <a href='#'><i className='fab fa-facebook-f'></i><FaStar /></a>
+                                                            <a href='#'><i className='fab fa-facebook-f'></i><FaStar /></a>
+                                                        </ul>
+                                                        <div className='category-title text-center'>
+                                                            <h3 className='fs-6'>{_card.title}</h3>
+                                                            <div className='category-price text-center'>
+                                                                <h3 className='fs-5'>{_card.price}</h3>
+                                                                <div className='category-button'>
+                                                                <Button variant="primary">Add to Cart</Button>
+                                                                <div className='discount-tag'>
+                                                            <span className='discount'>-25%</span>
+                                                            </div>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    );
+                                })
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </>
+
+    )
 }
+
 
 
 

@@ -1,6 +1,6 @@
 import './CardListList.css';
 import background from '../../assets/images/background image.jpg';
-import { CardConfig } from '../../../../utilities/config/CardConfig';
+import { CardListConfig } from '../../../../utilities/config/CardListConfig';
 import verticalimage from '../../../../assets/images/verticalimage.png'
 import { FaStar } from "react-icons/fa";
 
@@ -71,28 +71,27 @@ import { FaStar } from "react-icons/fa";
 */
 
 
-export const CardListList = () => {
-    const cards = CardConfig.CardListData;
+/*export const CardListList = () => {
+    const items = CardListConfig.CardListData;
     return (
 
         <>
-            <section className='aboutHome'>
-                <div className='container flexSB'>
-                    <div className="row">
-                    <div className='row row-cols-2 row-cols-md-2 g-4'>
-                    <div className='left row'>
-                        <img src={verticalimage} alt='' />
-                    </div>
+           <section className='CardList' id='CardList'>
+            <h1 className='heading'></h1>
+            <div className='column'>
+                <div className='vertical-image'>
+                    <img src={verticalimage} className="rounded float-start" alt='' />
+                </div>
 
-                    <div className='right row'>
+                    <div className='right-row'>
                         <div className='row justify-content-end'>
                             <div className="cols-lg-4">
                                 <div className='discount'>
-                                    <div className="card1">
-                                        {cards && cards.map((item, index) => {
+                                    <div className="card">
+                                        {items && items.map((item, index) => {
                                             return (
                                                 <div className='col' key={index}>
-                                                    <div className="row md-2 g-2">
+                                                    <div className="row">
                                                         <div className="col-md-2  py-2 text-top">
                                                             <img src={item.image} className="img-fluid" />
                                                         </div>
@@ -115,19 +114,73 @@ export const CardListList = () => {
                         </div>
                         </div>
                         </div>
-                    </div>
-                </div>
+                    
+            
             </section>
         </>
 
 
     )
 
+}*/
+
+
+
+
+export const CardListList = () => {
+    const items = CardListConfig.CardListData;
+    return (
+        <section className='CardList' id='CardList'>
+            <h1 className='heading'></h1>
+            <div className='column'>
+                <div className='vertical-image'>
+                    <img src={verticalimage} className="rounded float-start"  alt='' />
+                </div>
+                <div className='box-container'>
+                    <div className='box'>
+                        <div className='row row-cols-1 row-cols-md-2 g-4'>
+                            {items && items.map((_item, index) => {
+                                return (
+                                    <div className='col' key={index}>
+                                        <div className='card'>
+                                            <div className='product-image p-6  text-center'>
+                                                <a className='link-card-product' href='#'>
+                                                    <img src={_item.image} className="img-fluid" />
+                                                </a>
+                                                <div className='category-star'>
+                                                    <ul>
+                                                        <a href='#'><i className='fab fa-facebook-f'></i><FaStar /></a>
+                                                        <a href='#'><i className='fab fa-facebook-f'></i><FaStar /></a>
+                                                        <a href='#'><i className='fab fa-facebook-f'></i><FaStar /></a>
+                                                        <a href='#'><i className='fab fa-facebook-f'></i><FaStar /></a>
+                                                    </ul>
+                                                    <div className='cardList-title text-center'>
+                                                        <h3 className='fs-6'>{_item.title}</h3>
+                                                        <div className='cardList-price text-center'>
+                                                            <h3 className='fs-5'>{_item.price}</h3>
+                                                            <div className='cardList-discount'>
+                                                            <h3 className='fs-6'>{_item.discount}</h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                );
+                            })
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
 }
 
 
 
-  
+
 
 
 

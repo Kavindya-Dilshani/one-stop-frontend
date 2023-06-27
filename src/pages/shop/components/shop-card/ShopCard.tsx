@@ -1,10 +1,10 @@
 import { Button } from 'react-bootstrap';
 import './ShopCard.css';
-import { CardConfig } from '../../../../utilities/config/CardConfig';
+import { ShopCardConfig } from '../../../../utilities/config/ShopCardConfig';
 
 
 export const ShopCard = () => {
-    const shopcards = CardConfig.ShopCardData;
+    const shopcards = ShopCardConfig.ShopCardData;
     return (
         <>
             <section id="ShopCard">
