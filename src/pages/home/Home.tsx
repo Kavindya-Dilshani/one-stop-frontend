@@ -1,13 +1,13 @@
 import {Carousel} from './components/carousel/Carousel';
 import { Category } from './components/category/Category';
-import { Offer } from './components/offer/Offer';
 import { OfferFruitBanner } from './components/offer-fruit-banner/OfferFruitBanner';
 import { Banner } from './components/banner/Banner';
 import { OfferFishBanner } from './components/offer-fish-banner/OfferFishBanner';
 import { Testimonial } from './components/testimonial/Testimonial';
 import { CardTileList } from './components/card-tiles-list/CardTileList';
 import { CardListList } from './components/card-list-list/CardListList';
-import {CardCarousel } from './components/card-carousel/CardCarousel';
+import { CardCarousel } from "./components/card-carousel/CardCarousel";
+
 
 export const Home = () => {
     return (
@@ -23,11 +23,10 @@ export const Home = () => {
                 <h4 className='py-5 text-center'> Top Deals Discount</h4>
                 <CardListList/>
                 <h3 className='py-5 '></h3>
-                <Offer/>
+                <OfferFruitBanner/>
                 <h4 className='py-5 text-center'> Recently Landed</h4>
                 <CardCarousel/>
-                <OfferFruitBanner/>
-                <h2 className='py-5 text-center'> Customer Review</h2>
+                <h2 className='py-5 text-center'> Our Client Say</h2>
                 <Testimonial/>
                 <Banner/>
                 </div>

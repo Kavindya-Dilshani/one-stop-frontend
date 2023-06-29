@@ -1,7 +1,6 @@
-import { Button, } from "react-bootstrap";
-import { CarouselConfig } from "../../../../utilities/config/Card-CarouselConfig";
+import { Button } from 'react-bootstrap';
+import { CarouselConfig } from '../../../../utilities/config/Card-CarouselConfig';
 import './CardCarousel.css';
-
 
 
 export const CardCarousel = () => {
@@ -51,12 +50,40 @@ export const CardCarousel = () => {
     );
 
 }
+/*export const CardCarousel = () => {
+    const carousels = CarouselConfig.CardCarouselData;
+  return (
+    <>
+    <section className="CardCarousel">
+        <div className="CardCarousel-row">
+            <div className="r-box">
+            {carousels && carousels.map((_carousels, index) => {
+                        return (
+                            <div className='col' key={index}>
+                                <div className='card'>
+                                    <div className='carousel-image p-3 text-center'>
+                                        <a className='link-card-carousel' href='#'>
+                                            <img src={_carousels.image} className="img-fluid" />
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className='cat-title text-center pt-3'>
+                                    <h3>{_carousels.title}</h3>
+                                    <del>$22.00</del><span>$10.00</span>
+                                    <Button className="primary">Add to Cart</Button>
+                                        </div>
+                            </div>
+                        );
+                    })
 
+                    }
+                </div>
+            </div>
+            </section>
+        </>
+    );
 
-
-
-
-
+}*/
 
 
 

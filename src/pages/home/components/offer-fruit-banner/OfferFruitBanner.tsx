@@ -9,14 +9,15 @@ export const OfferFruitBanner = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-12">
-                            <div className="text-content-end">
+                            <div className="text">
                                 <h1>Weekend Offer</h1>
-                                <p className='fs-2'>Get 50% off
+                                <p className='fs-2'> Get <span>30% off </span>
                                     On Organic fruits
                                 </p>
-                                <p className="fs-5">Only this weekend, So don't miss</p>
-                                <p className="fs-3"> From $10.00</p>
-                                <Button variant="primary">Shop now</Button>
+                                <p className="fs-3">Only this weekend, So don't miss</p>
+                                <div className='button py-5'>
+                                <button type="button" className="btn btn-primary btn-lg">Shop Now</button>
+                                </div>
                             </div>
                         </div>
                     </div>

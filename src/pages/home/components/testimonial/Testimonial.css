@@ -1,19 +1,25 @@
-.testimonial .testimonial-wrapper{
-    box-shadow: 0 0 0.563rem 0 rbg(0 0 0  / 5%);
-    background-color:black;
-    margin: auto;
-    padding: 1rem 5rem;
-    border: 0.063rem solid crimson ;
-    border-radius: 0.625rem;
+
+.avatar{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
 }
 
-.testimonial .testimonial-wrapper img{
-    border-radius: 100%;
-    width: 5rem;
-    height: 5rem;
-    margin: 1.25rem auto;
-    object-fit: cover;
-    background-color: blanchedalmond;
-    border: 0.063rem solid cornsilk;
+.perac{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
 
+.carousel-item a{
+    color: coral;
+    margin-right: 0.5rem;
+}
+
+.carousel-item p{
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+.carousel-item h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
 }
