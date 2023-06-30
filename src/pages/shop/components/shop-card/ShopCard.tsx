@@ -22,7 +22,7 @@ export const ShopCard = () => {
                     {shopcards && shopcards.map((shop, index) => {
                         return (
                             <div className='col' key={index}>
-                                <div className='card'>
+                                <div className='card h-100'>
                                     <div className='product-image p-6  text-center'>
                                         <a className='link-shopcard-product' href='#'>
                                             <img src={shop.image} className="card-img-top" />

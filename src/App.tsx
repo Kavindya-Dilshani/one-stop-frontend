@@ -10,6 +10,7 @@ import { Signup } from './pages/signup/Signup';
 import { Home } from './pages/home/Home';
 import { Shop } from './pages/shop/Shop';
 import { About } from './pages/about/About';
+import { Contact } from './pages/contact/Contact';
 
 
 
@@ -28,6 +29,7 @@ function App() {
                 <Route path='/profile' element={<Profile />}></Route>
                 <Route path='/shop' element={<Shop />}></Route>
                 <Route path='/about' element={<About/>}></Route>
+                <Route path='/contact' element={<Contact/>}></Route>
               </Route>
               {/* public routes */}
               <Route path='/login' element={<Login />}></Route>

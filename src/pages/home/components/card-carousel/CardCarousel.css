@@ -1,10 +1,10 @@
-.CardCarousel-row{
+.card-carousel-row{
     margin-bottom: 4rem;
     display: flex;
     align-items: center;
 }
 
-.CardCarousel .CardCarousel-row r-box {
+.card-carousel .CardCarousel-row r-box {
     display: flex;
     flex-direction: column;
     background-color: white;

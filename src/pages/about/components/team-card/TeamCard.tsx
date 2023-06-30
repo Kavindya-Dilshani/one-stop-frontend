@@ -10,7 +10,7 @@ export const TeamCard = () => {
 
     return (
         <>
-            <div className='container mt-2 pt-2'>
+            <div className='container pt-2'>
             <div className='row'>
             <div className='row row-cols-2 row-cols-md-4 g-4'>
                 {teams && teams.map((_team, index) => {

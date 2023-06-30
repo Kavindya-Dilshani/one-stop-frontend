@@ -17,12 +17,12 @@ export const Footer = () => {
                             <div className='single-box'>
                             <img src={logo} className="Footer-brand" />
                            <h1>One Stop</h1>
-                            <p>Lorem Ipsum is simply dummy text of<br/> the and typesetting industry. Lorem<br/> Ipsum is dummy text of the printing.</p>
+                            <p>Thousands of Sri Lankans are served daily by OneStop, which has been operated by Sri Lankans for the past 5 years & provides the freshest products possible while still offering excellent value.</p>
                             <div className='contact-info'>
                                 <ul className='list-unstyled'>
-                                    <li><a href='#'><i className='fa fa-Map'></i><FaMapMarkerAlt/> 271, Galle Road, Colombo 3,<br/> Kollupitiya,Sri Lanka </a></li>
-                                    <li><a href='#'><i className='fa fa-phone'></i> <FaPhone /> +423-845-6570 </a></li>
-                                    <li><a href='#'><i className='fa fa-envelope'></i><FaEnvelope /> random@email.com </a></li>
+                                    <li><a href='#'><i className='fa fa-Map'></i><FaMapMarkerAlt/> 471, Galle Road, Colombo 3, Kollupitiya,<br/>Sri Lanka </a></li>
+                                    <li><a href='#'><i className='fa fa-phone'></i> <FaPhone /> 011-2445670 </a></li>
+                                    <li><a href='#'><i className='fa fa-envelope'></i><FaEnvelope /> onestop@gmail.com</a></li>
                                 </ul>
                             <div className='social-icons'>
                                 <ul>

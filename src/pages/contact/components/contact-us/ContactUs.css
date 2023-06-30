@@ -1,0 +1,62 @@
+.contact-area{
+    padding-top: 100px;
+}
+
+
+.contact-form{
+    background-color: whitesmoke;
+    box-shadow: black(0,0,0,0.35) 0 5px 15px;
+    padding: 10px 10px;
+    margin-left: 5rem;
+    padding-bottom: 1rem;
+}
+
+.section-title h3{
+    padding: 25px 0;
+}
+
+.contact-form h3{
+    color:darkgreen;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-form p{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: oswald;
+}
+
+.contact-form .btn{
+    background-color:forestgreen;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 50px;
+    letter-spacing: 2px;
+    border-color: forestgreen;
+}
+
+.map-area{
+    width: 600px;
+    height: 470px;
+    background: white;
+    box-shadow: black(0,0,0,0.35) 0 5px 15px;
+}
+.map-area iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/*responsive*/
+@media (max-width:991px){
+    .contact-form{
+        margin-bottom: 30px;
+    }
+    .map-area{
+        width: 100%;
+        height: 400px;
+
+    }
+}

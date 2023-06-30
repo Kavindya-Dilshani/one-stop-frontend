@@ -1,15 +1,43 @@
-.about h2 {
-    font-size: 3.5rem;
-    color: black;
-  }
- .about image{
-    width: 70px;
-    height: 70px;
-    display: flex;
+
+.about-text h3 {
+   font-size: 1rem;
+   color:forestgreen;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+   font-weight: bold;
  }
- 
- .about text{
- display: flex;
-    
+
+.image{
+   width: 70px;
+   height: 70px;
+}
+
+.about-area-container{
+   margin-left: 5rem;
+   padding-bottom: 5rem;
+}
+
+.about-text{
+   margin-left: 2rem;
+}
+
+.about-text h2 {
+   font-size: 3.5rem;
+   color:black;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: bold;
  }
-  
+
+ .about-text p {
+   color:black;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   padding-top: 1rem;
+ }
+
+ .about-text h4 {
+   color:black;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   padding-top: 2rem;
+   font-size: 18px;
+   margin-left: 2rem;
+ }

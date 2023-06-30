@@ -1,18 +1,21 @@
 .link-card-team img{
-    height: 20rem; 
+    width: 100%;
+    height: auto;
 }
 
 .member-position h6{
-    color: green;
+    color:forestgreen;
     font-family: "Times New Roman", Times, serif;
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: bold;
 }
-  h5{
-    font-family: "Times New Roman",Times, serif;
+h5{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
-    margin-top: 2rem;
+    padding-bottom: 1.5rem;
 }
 
-.member-position a{
+.card-icons a{
     color: black;
+    margin-right: 2rem;
 }
