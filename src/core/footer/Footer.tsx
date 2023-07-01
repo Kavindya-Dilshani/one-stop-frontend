@@ -63,7 +63,7 @@ export const Footer = () => {
                         <div className='col-lg-3 col-sm-6'>
                         <div className='single'>
                             <h2> Need Help</h2>
-                            <h4>+ 25 500-250-0001</h4>
+                            <h4>011-24456701</h4>
                             <h3 className='fs-4 pb-2'>We Accept</h3>
                             <div className='card-section'>
                     <ul>

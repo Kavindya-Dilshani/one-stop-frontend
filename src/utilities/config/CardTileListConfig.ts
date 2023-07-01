@@ -13,7 +13,7 @@ import Product8 from '../../assets/images/Product8.png';
 
 const CardTileData: CardTileDetails[] = [
     { title: 'Apple', image: Product1, price: 'Rs.300' },
-    { title: 'Bread', image: Product4, price: 'Rs 150' },
+    { title: 'Bread', image: Product1, price: 'Rs 150' },
     { title: 'Cabbage', image: Product7, price: 'Rs 75' },
     { title: 'Grapes', image: Product5, price: '4' },
     { title: 'Chicken', image: Product6, price: '7' },

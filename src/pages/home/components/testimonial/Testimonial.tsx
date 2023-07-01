@@ -84,7 +84,7 @@ import { FaStar } from "react-icons/fa";
 export const Testimonial = () => {
   return (
    <section className='testimonial py-3'>
-    <div className="testimonial-container text -center py-2">
+    <div className="testimonial-container text -center">
         <div className="row">
             <div className="col-lg-9 m-auto">
             <div className="col-sm-12 col-lg-8 offset-lg-2 text-center">
