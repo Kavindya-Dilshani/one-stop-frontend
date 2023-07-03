@@ -4,6 +4,7 @@ import { FaStar } from "react-icons/fa";
 import { Button } from "react-bootstrap";
 import { CardListConfig } from "../../utilities/config/CardListConfig";
 import { CardListDetails } from "../../shared/models/CardListList";
+import './ShopDetails.css';
 
 
 export const ShopDetails = () => {
@@ -50,15 +51,15 @@ export const ShopDetails = () => {
     return (
         <>
             {goods && (
-                <section className='CardTileList' id='CardTileList'>
-                    <div className='CardTileList-container'>
+                <section className='ShopDetails' id='ShopDetails'>
+                    <div className='ShopDetails-container'>
                         <div className='row'>
                             <div className='box'>
                                 <div className='row row-cols-1 row-cols-md-4 g-4'>
                                     {goods && goods.map((_goods, index) => {
                                         return (
                                             <div className='col' key={index}>
-                                                <div className='card'>
+                                                <div className='card h-100'>
                                                     <div className='details-image p-6  text-center'>
                                                         <a className='link-card-details' href='#'>
                                                             <img src={_goods.image} className="card-img-top" />
@@ -71,7 +72,7 @@ export const ShopDetails = () => {
                                                                 <a href='#'><i className='fab fa-facebook-f'></i><FaStar /></a>
                                                             </ul>
                                                             <div className='details-title text-center'>
-                                                                <h3 className='fs-6'>{_goods.title}</h3>
+                                                                <h3 className='fs-5'>{_goods.title}</h3>
                                                                 <div className='details-price text-center'>
                                                                     <h3 className='fs-5'>{_goods.price}</h3>
                                                                     <div className='cardList-discount'>

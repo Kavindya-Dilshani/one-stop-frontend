@@ -38,15 +38,15 @@
     position: absolute;
     top: 1rem;
     left: 0;
-    background:mediumseagreen;
-   color: black;
+    background:red;
    padding: 4px 10px;
 }
 .category-button button {
-   color:black;
-   background-color:darkseagreen;
+   text-transform: uppercase;
+    font-weight: 700;
+   background-color:forestgreen;
    padding: 4px 7px;
-   border-color: black;
+   border-color: forestgreen;
    margin-right: 0.5rem;
    margin-bottom: 1rem;
 }

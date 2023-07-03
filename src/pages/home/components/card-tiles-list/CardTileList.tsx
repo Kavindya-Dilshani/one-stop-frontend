@@ -81,7 +81,7 @@ export const CardTileList = () => {
                                                             <a href='#'><i className='fab fa-facebook-f'></i><FaStar /></a>
                                                         </ul>
                                                         <div className='category-title text-center'>
-                                                            <h3 className='fs-6'>{_card.title}</h3>
+                                                            <h3 className='fs-5'>{_card.title}</h3>
                                                             <div className='category-price text-center'>
                                                                 <h3 className='fs-5'>{_card.price}</h3>
                                                                 <div className='category-button'>
