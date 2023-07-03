@@ -6,11 +6,11 @@ import Bakery from '../../assets/images/bakery.png'
 import meat from '../../assets/images/meat.png'
 
 const categoryList: CategoryDetails[] = [
-    { title: 'Fruits', image: fruit, path: '', altValue: '' },
-    { title: 'Vegetable', image: Vegetable, path: '', altValue: '' },
-    { title: 'Flour', image: flour, path: '', altValue: '' },
-    { title: 'Meat & Fish', image: meat, path: '', altValue: '' },
-    { title: 'Bakery', image: Bakery, path: '', altValue: '' }
+    { title: 'Fruits', image: fruit, path: 'fruits', altValue: '' },
+    { title: 'Vegetable', image: Vegetable, path: 'vegetable', altValue: '' },
+    { title: 'Flour', image: flour, path: 'flour', altValue: '' },
+    { title: 'Meat & Fish', image: meat, path: 'meat&fish', altValue: '' },
+    { title: 'Bakery', image: Bakery, path: 'bakery', altValue: '' }
 ];
 
 export const CategoryConfig = { categoryList };

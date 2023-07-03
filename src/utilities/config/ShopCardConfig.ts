@@ -12,12 +12,12 @@ import diary from '../../assets/images/diary.jpg';
 
 
 const ShopCardData: ShopCardDetails[] = [
-    { title: 'Fruits', image: fruits, amount: '8 items' },
-    { title: 'Vegetables', image: vegetable, amount: '8 items' },
-    { title: 'Flour', image: flour, amount: '5 items' },
-    { title: 'Meat & Fish', image: meatFish, amount: '6 items' },
-    { title: 'Bakery', image: bakery, amount: '8 items' },
-    { title: 'Diary', image: diary, amount: '8 items' }
+    { title: 'Fruits', image: fruits, amount: '8 items' ,path:'fruits'},
+    { title: 'Vegetables', image: vegetable, amount: '8 items',path:'vegetable' },
+    { title: 'Flour', image: flour, amount: '5 items',path:'flour' },
+    { title: 'Meat & Fish', image: meatFish, amount: '6 items' ,path:'meat&fish'},
+    { title: 'Bakery', image: bakery, amount: '8 items',path:'bakery' },
+    { title: 'Diary', image: diary, amount: '8 items' ,path:'diary'}
 ];
 
 

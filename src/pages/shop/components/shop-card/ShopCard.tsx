@@ -1,6 +1,7 @@
 import { Button } from 'react-bootstrap';
 import './ShopCard.css';
 import { ShopCardConfig } from '../../../../utilities/config/ShopCardConfig';
+import { Link } from 'react-router-dom';
 
 
 export const ShopCard = () => {
@@ -26,7 +27,7 @@ export const ShopCard = () => {
                                             <div className='shopcard-amount text-center'>
                                              <h3 className='fs-5'>{shop.amount}</h3>
                                             <div className='shopcard-button pt-2'>
-                                            <Button variant="primary">Shop Now</Button>
+                                            <Link to={shop.path}><Button variant="primary">Shop Now</Button></Link>
                                         </div>
                                     </div>
                                 </div>

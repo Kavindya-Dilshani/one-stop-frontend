@@ -11,6 +11,7 @@ import { Home } from './pages/home/Home';
 import { Shop } from './pages/shop/Shop';
 import { About } from './pages/about/About';
 import { Contact } from './pages/contact/Contact';
+import { ShopDetails } from './pages/shop-details/ShopDetails';
 
 
 
@@ -30,6 +31,8 @@ function App() {
                 <Route path='/shop' element={<Shop />}></Route>
                 <Route path='/about' element={<About/>}></Route>
                 <Route path='/contact' element={<Contact/>}></Route>
+                <Route path='/shop/:categoryName' element={<ShopDetails/>}></Route>
+                <Route path='/home/:categoryName' element={<ShopDetails/>}></Route>
               </Route>
               {/* public routes */}
               <Route path='/login' element={<Login />}></Route>

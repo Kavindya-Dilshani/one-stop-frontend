@@ -1,6 +1,7 @@
 import { Button } from 'react-bootstrap';
 import { CarouselConfig } from '../../../../utilities/config/Card-CarouselConfig';
 import './CardCarousel.css';
+import Strawberry from '../../../../assets/images/Strawberry.jpg';
 
 
 export const CardCarousel = () => {
@@ -84,6 +85,11 @@ export const CardCarousel = () => {
     );
 
 }*/
+
+
+
+
+
 
 
 
