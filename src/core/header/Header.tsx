@@ -45,7 +45,7 @@ export const Header = () => {
                             </li>
                             <div className='icons' />
                             <li><Link to='#'><i className='fa fa-search'></i><FaSistrix /> </Link></li>
-                            <li><Link to='#'><i className='fa fa-user'></i><FaUserAlt /> </Link></li>
+                            <li><Link to='/login'><i className='fa fa-user'></i><FaUserAlt /></Link></li>
                             <li><Link to='#'><i className='fa fa-shopping-cart'></i><FaShoppingCart /> </Link></li>
                         </ul>
                     </div>

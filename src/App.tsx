@@ -12,6 +12,7 @@ import { Shop } from './pages/shop/Shop';
 import { About } from './pages/about/About';
 import { Contact } from './pages/contact/Contact';
 import { ShopDetails } from './pages/shop-details/ShopDetails';
+import {Cart} from './pages/shop/components/cart/Cart';
 
 
 
@@ -33,6 +34,7 @@ function App() {
                 <Route path='/contact' element={<Contact/>}></Route>
                 <Route path='/shop/:categoryName' element={<ShopDetails/>}></Route>
                 <Route path='/home/:categoryName' element={<ShopDetails/>}></Route>
+                <Route path='/cart/' element={<Cart/>}></Route>
               </Route>
               {/* public routes */}
               <Route path='/login' element={<Login />}></Route>

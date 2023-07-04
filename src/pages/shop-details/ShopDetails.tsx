@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { useLocation } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import { FaStar } from "react-icons/fa";
 import { Button } from "react-bootstrap";
 import { CardListConfig } from "../../utilities/config/CardListConfig";
@@ -78,7 +78,7 @@ export const ShopDetails = () => {
                                                                     <div className='cardList-discount'>
                                                                         <h3 className='fs-6'>{_goods.discount}</h3>
                                                                         <div className='details-button'>
-                                                                            <Button variant="primary">Add to Cart</Button>
+                                                                        <Link to={_goods.path}><Button variant="primary">Add to Cart</Button></Link>
                                                                         </div>
                                                                     </div>
                                                                 </div>

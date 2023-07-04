@@ -3,5 +3,6 @@ export interface CardListDetails {
     image: string,
     price: string,
     discount: string,
+    path:string,
     
 }

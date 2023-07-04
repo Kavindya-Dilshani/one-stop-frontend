@@ -44,81 +44,81 @@ import ghee from '../../assets/images/ghee.png';
 import milkpowder from '../../assets/images/milkpowder.png';
 
 const CardListData: CardListDetails[] = [
-    { title: 'Apple', image: Product2, price: '', discount: '' },
-    { title: 'Chicken', image: Product2, price: '', discount: '' },
-    { title: 'Carrot', image: Product2, price: '', discount: '' },
-    { title: 'Grapes', image: Product2, price: '', discount: '' },
-    { title: 'Beef', image: Product2, price: '', discount: '' },
-    { title: 'Tomato', image: Product2, price: '', discount: '' },
+    { title: 'Apple', image: Product2, price: '', discount: '',path:'' },
+    { title: 'Chicken', image: Product2, price: '', discount: '',path:'' },
+    { title: 'Carrot', image: Product2, price: '', discount: '',path:'' },
+    { title: 'Grapes', image: Product2, price: '', discount: '',path:'' },
+    { title: 'Beef', image: Product2, price: '', discount: '' ,path:''},
+    { title: 'Tomato', image: Product2, price: '', discount: '',path:'' },
 
 ];
 
 const fruits: CardListDetails[] = [
-    { title: 'Mango', image: mango, price: '', discount: '' },
-    { title: 'Pineapple', image: pineapple, price: '', discount: '' },
-    { title: 'Apple', image: Product1, price: '', discount: '' },
-    { title: 'Grapes', image: Product5, price: '', discount: '' },
-    { title: 'Banana', image: banana, price: '', discount: '' },
-    { title: 'Watermelon', image: watermelon, price: '', discount: '' },
-    { title: 'Orange', image: orange, price: '', discount: '' },
-    { title: 'Lemon', image: Product8, price: '', discount: '' }
+    { title: 'Mango', image: mango, price: '', discount: '',path:'cart' },
+    { title: 'Pineapple', image: pineapple, price: '', discount: '',path:'' },
+    { title: 'Apple', image: Product1, price: '', discount: '',path:'' },
+    { title: 'Grapes', image: Product5, price: '', discount: '',path:'' },
+    { title: 'Banana', image: banana, price: '', discount: '',path:'' },
+    { title: 'Watermelon', image: watermelon, price: '', discount: '',path:'' },
+    { title: 'Orange', image: orange, price: '', discount: '',path:'' },
+    { title: 'Lemon', image: Product8, price: '', discount: '',path:'' }
 
 ];
 
 const vegetables: CardListDetails[] = [
-    { title: 'Carrot', image: carrot, price: '', discount: '' },
-    { title: 'Broccoli', image: broccoli, price: '', discount: '' },
-    { title: 'Cabbage', image: Product7, price: '', discount: '' },
-    { title: 'Tomato', image: tomato, price: '', discount: '' },
-    { title: 'Cucumber', image: cucumber, price: '', discount: '' },
-    { title: 'Beetroot', image: beetroot, price: '', discount: '' },
-    { title: 'Leek', image: leek, price: '', discount: '' },
-    { title: 'onion', image: Product2, price: '', discount: '' }
+    { title: 'Carrot', image: carrot, price: '', discount: '',path:'' },
+    { title: 'Broccoli', image: broccoli, price: '', discount: '',path:'' },
+    { title: 'Cabbage', image: Product7, price: '', discount: '',path:'' },
+    { title: 'Tomato', image: tomato, price: '', discount: '',path:'' },
+    { title: 'Cucumber', image: cucumber, price: '', discount: '' ,path:''},
+    { title: 'Beetroot', image: beetroot, price: '', discount: '',path:'' },
+    { title: 'Leek', image: leek, price: '', discount: '',path:'' },
+    { title: 'onion', image: Product2, price: '', discount: '',path:'' }
 
 ];
 
 const flour: CardListDetails[] = [
-    { title: 'Rice Flour', image: riceflour, price: '', discount: '' },
-    { title: 'Wheat Flour', image: wheatflour, price: '', discount: '' },
-    { title: 'Kurakkan Flour', image: Kurakkanflour, price: '', discount: '' },
-    { title: 'Atta Flour', image: attaflour, price: '', discount: '' },
-    { title: 'Ulundu Flour', image: ulunduflour, price: '', discount: '' }
+    { title: 'Rice Flour', image: riceflour, price: '', discount: '',path:'' },
+    { title: 'Wheat Flour', image: wheatflour, price: '', discount: '',path:'' },
+    { title: 'Kurakkan Flour', image: Kurakkanflour, price: '', discount: '',path:'' },
+    { title: 'Atta Flour', image: attaflour, price: '', discount: '' ,path:''},
+    { title: 'Ulundu Flour', image: ulunduflour, price: '', discount: '',path:'' }
     
 
 ];
 const meat: CardListDetails[] = [
-    { title: 'Chicken', image: Product6, price: '', discount: '' },
-    { title: 'Beef', image: beef, price: '', discount: '' },
-    { title: 'Fish', image: fish1, price: '', discount: '' },
-    { title: 'Prawns', image: prawns, price: '', discount: '' },
-    { title: 'Pork', image: pork, price: '', discount: '' },
-    { title: 'Sausage', image: sausage, price: '', discount: '' }
+    { title: 'Chicken', image: Product6, price: '', discount: '',path:'' },
+    { title: 'Beef', image: beef, price: '', discount: '' ,path:''},
+    { title: 'Fish', image: fish1, price: '', discount: '' ,path:''},
+    { title: 'Prawns', image: prawns, price: '', discount: '',path:'' },
+    { title: 'Pork', image: pork, price: '', discount: '' ,path:''},
+    { title: 'Sausage', image: sausage, price: '', discount: '',path:'' }
     
 
 ];
 
 const bakery: CardListDetails[] = [
-    { title: 'Bread', image: bread, price: '', discount: '' },
-    { title: 'Buns', image: buns, price: '', discount: '' },
-    { title: 'Donuts', image: donut, price: '', discount: '' },
-    { title: 'Croissant', image: croissant, price: '', discount: '' },
-    { title: 'Cake', image: cake, price: '', discount: '' },
-    { title: 'Cookies', image: cookies, price: '', discount: '' },
-    { title: 'Brownies', image: brownies, price: '', discount: '' },
-    { title: 'Cupcakes', image: cupcake, price: '', discount: '' }
+    { title: 'Bread', image: bread, price: '', discount: '',path:''},
+    { title: 'Buns', image: buns, price: '', discount: '' ,path:''},
+    { title: 'Donuts', image: donut, price: '', discount: '',path:'' },
+    { title: 'Croissant', image: croissant, price: '', discount: '',path:'' },
+    { title: 'Cake', image: cake, price: '', discount: '' ,path:''},
+    { title: 'Cookies', image: cookies, price: '', discount: '' ,path:''},
+    { title: 'Brownies', image: brownies, price: '', discount: '',path:'' },
+    { title: 'Cupcakes', image: cupcake, price: '', discount: '',path:'' }
     
 
 ];
 
 const diary: CardListDetails[] = [
-    { title: 'Cheese', image: cheese, price: '', discount: '' },
-    { title: 'Eggs', image: Product3, price: '', discount: '' },
-    { title: 'Milk', image: milk, price: '', discount: '' },
-    { title: 'Yogurt', image: yogurt, price: '', discount: '' },
-    { title: 'Butter', image: butter, price: '', discount: '' },
-    { title: 'Curd', image: curd, price: '', discount: '' },
-    { title: 'Ghee', image: ghee, price: '', discount: '' },
-    { title: 'Milk Powder', image: milkpowder, price: '', discount: '' }
+    { title: 'Cheese', image: cheese, price: '', discount: '',path:'' },
+    { title: 'Eggs', image: Product3, price: '', discount: '',path:'' },
+    { title: 'Milk', image: milk, price: '', discount: '',path:'' },
+    { title: 'Yogurt', image: yogurt, price: '', discount: '' ,path:''},
+    { title: 'Butter', image: butter, price: '', discount: '',path:'' },
+    { title: 'Curd', image: curd, price: '', discount: '' ,path:''},
+    { title: 'Ghee', image: ghee, price: '', discount: '',path:'' },
+    { title: 'Milk Powder', image: milkpowder, price: '', discount: '',path:'' }
     
 
 ];

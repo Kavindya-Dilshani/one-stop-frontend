@@ -1,0 +1,64 @@
+.Signup-area{
+    padding-top: 100px;
+}
+
+
+.Signup-form{
+    background-color: white;
+    padding: 10px 10px;
+    margin-left: 5rem;
+    padding-top: 2rem;
+    box-shadow: 1px 2px 11px 4px rgb(14 55 54/ 15%);
+}
+.Signup-form input{
+    background-color: whitesmoke;
+}
+.Signup-form label {
+   font-size: larger;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Signup-form .form-check .form-check-label {
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+ }
+.Signup-form h3{
+    color:black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.Signup-form .btn{
+    background-color:forestgreen;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 50px;
+    letter-spacing: 2px;
+    border-color: forestgreen;
+    margin-left: 12rem;
+}
+
+.image-area h2{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 4rem;
+    font-weight: bold;
+    font-family:oswald ;
+    color: darkgreen;
+}
+.image-area{
+    align-items: center;
+}
+.image-area img{
+   padding-bottom: 2rem;
+}
+
+   p{
+    text-align: center;
+    margin-right: 7rem;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
