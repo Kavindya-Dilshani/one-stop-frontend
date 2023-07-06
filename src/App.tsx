@@ -12,7 +12,9 @@ import { Shop } from './pages/shop/Shop';
 import { About } from './pages/about/About';
 import { Contact } from './pages/contact/Contact';
 import { ShopDetails } from './pages/shop-details/ShopDetails';
-import {Cart} from './pages/shop/components/cart/Cart';
+import { Cart } from './components/cart/Cart';
+import { CheckOut } from './pages/shop/components/checkout/CheckOut';
+import { CartProvider } from './utilities/cart/CartProvider';
 
 
 
@@ -20,31 +22,34 @@ import {Cart} from './pages/shop/components/cart/Cart';
 function App() {
   return (
     <div className="App">
-  
+
       <AuthProvider>
-        <>
-          <Header />
-          <div className='content-body py-5'>
-            <Routes>
-              {/* private routes */}
-              <Route element={<PrivateRoutes />}>
-                <Route path='/profile' element={<Profile />}></Route>
-                <Route path='/shop' element={<Shop />}></Route>
-                <Route path='/about' element={<About/>}></Route>
-                <Route path='/contact' element={<Contact/>}></Route>
-                <Route path='/shop/:categoryName' element={<ShopDetails/>}></Route>
-                <Route path='/home/:categoryName' element={<ShopDetails/>}></Route>
-                <Route path='/cart/' element={<Cart/>}></Route>
-              </Route>
-              {/* public routes */}
-              <Route path='/login' element={<Login />}></Route>
-              <Route path='/signup' element={<Signup />}></Route>
-              <Route path='/' element={<Home />}></Route>
-              <Route path='/home' element={<Home />}></Route>
-            </Routes>
-          </div>
-          { <Footer /> }
-        </>
+        <CartProvider>
+          <>
+            <Header />
+            <div className='content-body py-5'>
+              <Routes>
+                {/* private routes */}
+                <Route element={<PrivateRoutes />}>
+                  <Route path='/profile' element={<Profile />}></Route>
+                  <Route path='/shop' element={<Shop />}></Route>
+                  <Route path='/about' element={<About />}></Route>
+                  <Route path='/contact' element={<Contact />}></Route>
+                  <Route path='/shop/:categoryName' element={<ShopDetails />}></Route>
+                  <Route path='/home/:categoryName' element={<ShopDetails />}></Route>
+                  <Route path='/cart' element={<Cart />}></Route>
+                  <Route path='/checkout' element={<CheckOut />}></Route>
+                </Route>
+                {/* public routes */}
+                <Route path='/login' element={<Login />}></Route>
+                <Route path='/signup' element={<Signup />}></Route>
+                <Route path='/' element={<Home />}></Route>
+                <Route path='/home' element={<Home />}></Route>
+              </Routes>
+            </div>
+            {<Footer />}
+          </>
+        </CartProvider>
       </AuthProvider>
     </div>
   );

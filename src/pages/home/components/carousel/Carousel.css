@@ -4,30 +4,74 @@
     background-image: url('../../../../assets/images/banner1.png');
     background-size: cover;
     padding: 16.675rem 0 9.375rem;
+    padding-bottom: 16rem;
   }
 
   .top-banner1  {
     width: 100%;
     height: auto;
-    background-image: url('../../../../assets/images/banner2.jpg');
+    background-image: url('../../../../assets/images/banner2.png');
     background-size: cover;
     padding: 16.675rem 0 9.375rem;
+    padding-bottom: 18rem;
   }
-
- 
-
+.carousel-container h3{
+  text-align: left;
+  margin-left: 10rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+  padding: 0.5rem 2rem;
+}
   
+.carousel-container p{
+  text-align: left;
+  margin-left: 8rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 50px;
+  padding: 0.5rem 0.5rem;
 
+}
  
+.carousel-container span{
+  color: darkgreen;
+}
+.carousel-container button{
+  background-color:forestgreen;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 8px 30px;
+  letter-spacing: 2px;
+  border-color:forestgreen;
+  margin-left: 18rem;
+}
 
+ .carousel-container .text h3{
+  text-align: end;
+  margin-right: 10rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+  padding: 0.5rem 2rem;
+}
 
+.carousel-container .text h2{
+  text-align: left;
+  margin-left: 10rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 50px;
+  padding: 0.5rem 2rem;
+}
 
+.carousel-container text-button{
+  background-color:forestgreen;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 8px 20px;
+  letter-spacing: 2px;
+  border-color:forestgreen;
+  margin-left: 18rem;
 
-  /*.Carousel-section{
-    width: 100%;
-    height: 28.125rem;
-    background: url('../assets/images/banner2.jpg') no-repeat center;
-    background-size: cover;
-    padding-top: 100px;
-    text-align:end;
-}*/
+}

@@ -87,7 +87,7 @@ export const CardTileList = () => {
                                                                 <div className='category-button'>
                                                                 <Button variant="primary">Add to Cart</Button>
                                                                 <div className='discount-tag'>
-                                                            <span className='discount'>-25%</span>
+                                                                    <span className='discount'>-25%</span>
                                                             </div>
                                                             </div>
                                                             </div>

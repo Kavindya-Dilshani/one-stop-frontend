@@ -20,26 +20,44 @@
 
 .CardList .column  .box-container .box card{
   flex-direction: row;
-  max-width: 20rem;
+  max-width: 30rem;
   border: 0;
   background-color:white;
-  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18)
-}
-
-.card1-title{
-  display: flex;
-  flex-direction: row;
-  color: black;
+  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
+  padding-top: 10rem;
 }
 
 .box-container .box img{
-  width: 100%;
-   height: 4rem;
-   object-fit:contain;
-   object-position:2rem;
+  width:30%;
+   margin: auto;
+   padding: 0.5em;
+   border-radius: 0.7em;
+   background-color: whitesmoke;
 }
 
 .CardList .box-container{
   padding: 10px 40px;
+}
+
+.category-star a{
+  margin-left: 0.5rem;
+}
+
+.cardList-title h3{
+  font-size: 20px;
+  margin-left: 0.5rem;
+}
+
+.cardList-discount h3{
+  font-size: 18px;
+  color: darkgrey;
+  margin-left: 0.5rem;
+
+}
+
+.cardList-price h3{
+  font-size: 18px;
+  color: black;
+
 }
 

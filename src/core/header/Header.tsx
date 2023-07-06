@@ -11,8 +11,8 @@ export const Header = () => {
             <nav className="header navbar navbar-expand-lg  navigation-wrap">
                 <div className="container">
                     <Link className="navbar-brand" to="/home" >
-                        <img className="navbar-brand" src={logo}/> 
-                        <h3>One Stop</h3>
+                        <img className="navbar-brand" src={logo} />One Stop
+
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -24,11 +24,11 @@ export const Header = () => {
                                     All Categories
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><Link className="dropdown-item" to="#">Fruits</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Vegetables</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Bakery</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Meat & Fish</Link></li>
-                                    <li><Link className="dropdown-item" to="#">Flour</Link></li>
+                                    <li><Link className="dropdown-item" to="/home/fruits">Fruits</Link></li>
+                                    <li><Link className="dropdown-item" to="/home/vegetable">Vegetables</Link></li>
+                                    <li><Link className="dropdown-item" to="/home/bakery">Bakery</Link></li>
+                                    <li><Link className="dropdown-item" to="/home/meat&fish">Meat & Fish</Link></li>
+                                    <li><Link className="dropdown-item" to="/home/flour">Flour</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item">
@@ -43,16 +43,21 @@ export const Header = () => {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/contact">Contact</Link>
                             </li>
-                            <div className='icons' />
-                            <li><Link to='#'><i className='fa fa-search'></i><FaSistrix /> </Link></li>
-                            <li><Link to='/login'><i className='fa fa-user'></i><FaUserAlt /></Link></li>
-                            <li><Link to='#'><i className='fa fa-shopping-cart'></i><FaShoppingCart /> </Link></li>
-                        </ul>
-                    </div>
-                    <div className='search'>
+                            </ul>
+                        <form className=" d-flex">
+                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button className="btn btn-outline-success" type="submit"><i className='fa fa-search'></i><FaSistrix/>
+                            </button>
+                            </form>
+                        <div className='icons'>
+                        <Link to='/login'><i className='fa fa-user me-4'></i><FaUserAlt /></Link>
+                        <Link to='/cart'><i className='fa fa-shopping-cart me-4'></i><FaShoppingCart /> </Link>
+                        </div>
                     </div>
                 </div>
             </nav>
         </>
     );
 }
+
+

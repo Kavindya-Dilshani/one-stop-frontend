@@ -8,30 +8,32 @@
     border-color: black;
 }
 
-.OfferFruitBanner-section .text h1{
+.OfferFruitBanner-section .fruit-text h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 2rem; 
+    margin-left: 10rem; 
     font-weight: lighter;
     font-size: 50px;
 }
 
-.OfferFruitBanner-section .text p{
-    margin-left: 2rem; 
+.OfferFruitBanner-section .fruit-text p{
+    margin-left: 10rem; 
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
-.OfferFruitBanner-section .text  span{
+.OfferFruitBanner-section .fruit-text  span{
     color:darkgreen;
     font-weight: bold;
     font-size: 70px;
     
 }
 
-.OfferFruitBanner-section .text button{
-    color:black;
-    background-color: darkseagreen;
-    border-color: black;
-    margin-left: 5rem;
+.OfferFruitBanner-section .fruit-text button{
+    color:white;
+    background-color: forestgreen;
+    border-color: forestgreen;
+    margin-left: 10rem;
     padding: 1rem 1rem;
     width: 15rem;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 

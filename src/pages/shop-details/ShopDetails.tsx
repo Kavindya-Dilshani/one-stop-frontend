@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom"
 import { FaStar } from "react-icons/fa";
 import { Button } from "react-bootstrap";
 import { CardListConfig } from "../../utilities/config/CardListConfig";
-import { CardListDetails } from "../../shared/models/CardListList";
+import { CardListDetails } from "../../shared/models/CardListListModel";
 import './ShopDetails.css';
 
 

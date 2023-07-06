@@ -13,9 +13,9 @@ export const Category = () => {
                         <div className='col' key={index}>
                             <div className='category'>
                                 <div className='cat-image p-3 text-center'>
-                                    <a className='link-category-product' href='#'>
+                                    <span className='link-category-product'>
                                         <Link to={category.path}><img src={category.image} className="img-fluid" alt={category.altValue} /></Link>
-                                    </a>
+                                    </span>
                                 </div>
                             </div>
                             <div className='category-title text-center pt-2'>
