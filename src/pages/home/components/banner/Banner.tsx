@@ -16,16 +16,16 @@ export const Banner = () => {
                                         <br />  Needs From Our Shop
                                     </p>
                                     <h4 className="fs-6">Join our email subscription now to get updates on promotions and coupons.</h4>
-                                <div className='newsletter'>
-                                    <div className='row'>
-                                        <div className='content'>
-                                            <input type="email" className="form-control" name='' placeholder="Your email address" />
-                                            <span className="input-group-btn">
-                                                <button className='btn' type='submit'>Subscribe</button>
-                                            </span>
+                                    <div className='newsletter'>
+                                        <div className='row'>
+                                            <div className='content'>
+                                                <input type="email" className="form-control" name='' placeholder="Your email address" />
+                                                <div className="input-group-append">
+                                                    <button type="submit" className="btn btn-secondary">Subscribe</button>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
                                 </div>
                             </div>
                         </div>

@@ -3,6 +3,7 @@
     height: 130px;
     width: 130px;
     border-radius: 50%;
+    margin-right: 2rem;
 }
 
 .perac{
@@ -12,14 +13,17 @@
 
 .carousel-item a{
     color: coral;
-    margin-right: 0.5rem;
+    margin-right: 1.5rem;
+
 }
 
 .carousel-item p{
     font-family: 'Times New Roman', Times, serif;
+    margin-left: 3rem;
 }
  
 .carousel-item h4{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
+    margin-right: 2rem;
 }
