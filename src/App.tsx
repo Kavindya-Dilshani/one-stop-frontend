@@ -15,6 +15,7 @@ import { ShopDetails } from './pages/shop-details/ShopDetails';
 import { Cart } from './components/cart/Cart';
 import { CheckOut } from './pages/shop/components/checkout/CheckOut';
 import { CartProvider } from './utilities/cart/CartProvider';
+import {Error} from './core/404/Error';
 
 
 
@@ -43,7 +44,7 @@ function App() {
                 {/* public routes */}
                 <Route path='/login' element={<Login />}></Route>
                 <Route path='/signup' element={<Signup />}></Route>
-                <Route path='/' element={<Home />}></Route>
+                <Route path='*' element={<Error />}></Route>
                 <Route path='/home' element={<Home />}></Route>
               </Routes>
             </div>

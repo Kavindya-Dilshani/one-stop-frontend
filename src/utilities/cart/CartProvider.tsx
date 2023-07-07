@@ -27,7 +27,12 @@ export const CartProvider = (props: any) => {
         }
     }
 
-    const getTotalPrice = () => {
+    const getTotalPrice = (itemPrice: string) => {
+        if (itemPrice && cartItems && cartItems.length > 0) {
+            const originalCartItemList = [...cartItems];
+            const priceCartItemList = originalCartItemList.filter(item => item.itemPrice !== itemPrice);
+            setCartItems(priceCartItemList);
+        }
 
     }
 

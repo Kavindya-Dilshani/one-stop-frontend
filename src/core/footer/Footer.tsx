@@ -4,6 +4,7 @@ import { FaFacebook,FaTwitter,FaLinkedin } from "react-icons/fa";
 import logo from '../../assets/icons/logo.png';
 import {FaCcPaypal,FaCcMastercard,FaCcVisa } from "react-icons/fa";
 import {FaAngleRight } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 export const Footer = () => {
@@ -17,7 +18,8 @@ export const Footer = () => {
                             <div className='single-box'>
                             <img src={logo} className="Footer-brand" />
                            <h1>One Stop</h1>
-                            <p>Thousands of Sri Lankans are served daily by OneStop, which has been operated by Sri Lankans for the past 5 years & provides the freshest products possible while still offering excellent value.</p>
+                            <p className='text-start'>Thousands of Sri Lankans are served daily by OneStop,which has been operated by Sri Lankans for 
+                            the past 5 years & provides the freshest products possible while still offering excellent value.</p>
                             <div className='contact-info'>
                                 <ul className='list-unstyled'>
                                     <li><a href='#'><i className='fa fa-Map'></i><FaMapMarkerAlt/> 471, Galle Road, Colombo 3, Kollupitiya,<br/>Sri Lanka </a></li>
@@ -38,12 +40,12 @@ export const Footer = () => {
                         <div className='single'>
                             <h2> Company</h2>
                             <ul className='link-widget p-0'>
-                            <li><a href='#'><i className='fa fa-right'></i><FaAngleRight/>Shop</a></li>
-                                <li><a href='#'><i className='fa fa-right'></i><FaAngleRight/>About us</a></li>
-                                <li><a href='#'><i className='fa fa-right'></i><FaAngleRight/>All products</a></li>
+                            <li><Link to={'/shop'}><i className='fa fa-right'></i><FaAngleRight/>Shop</Link></li>
+                                <li><Link to={'/about'}><i className='fa fa-right'></i><FaAngleRight/>About us</Link></li>
+                                <li><Link to={'/shop'}><i className='fa fa-right'></i><FaAngleRight/>All products</Link></li>
                                 <li><a href='#'><i className='fa fa-right'></i><FaAngleRight/>Help</a></li>
                                 <li><a href='#'><i className='fa fa-right'></i><FaAngleRight/>Information</a></li>
-                                <li><a href='#'><i className='fa fa-right'></i><FaAngleRight/>Contact us</a></li>
+                                <li><Link to={'/contact'}><i className='fa fa-right'></i><FaAngleRight/>Contact us</Link></li>
                             </ul>
                         </div>
                         </div>
@@ -51,12 +53,12 @@ export const Footer = () => {
                         <div className='single'>
                             <h2> Services</h2>
                             <ul className='link-widget p-0'>
-                            <li><a href='#'><i className='fa fa-right'></i><FaAngleRight/>Login</a></li>
+                            <li><Link to={'/login'}><i className='fa fa-right'></i><FaAngleRight/>Login</Link></li>
                                 <li><a href='#'><i className='fa fa-right'></i><FaAngleRight/>Wish List</a></li>
                                 <li><a href='#'><i className='fa fa-right'></i><FaAngleRight/>My Account</a></li>
                                 <li><a href='#'><i className='fa fa-right'></i><FaAngleRight/>Terms & Conditions</a></li>
                                 <li><a href='#'><i className='fa fa-right'></i><FaAngleRight/>Promotional Offers</a></li>
-                                <li><a href='#'><i className='fa fa-right'></i><FaAngleRight/>My Cart</a></li>
+                                <li><Link to={'/cart'}><i className='fa fa-right'></i><FaAngleRight/>My Cart</Link></li>
                             </ul>
                             </div>
                         </div>

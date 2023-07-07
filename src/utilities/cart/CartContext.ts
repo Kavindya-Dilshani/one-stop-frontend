@@ -6,7 +6,7 @@ export const CartContext = createContext(
         addItem: (item: CartItem) => { },
         getAllItems: (): CartItem[] => { return [] },
         removeItem: (itemId: string) => { },
-        getTotalPrice: () => { }
+        getTotalPrice: (itemPrice: string) => { }
     }
 )
 

@@ -43,7 +43,7 @@ export const Login = () => {
                                     <div className="col-12">
                                         <button type="submit" className="btn btn-primary">Login</button>
                                         <p className=" mt-4 pt-1 mb-0 ">Don't have an account?
-                                            <Link to='/signup'><a href="#!" className="link-danger mx-2">Register</a></Link></p>
+                                            <Link to='/signup'><a className="link-danger mx-2">Register</a></Link></p>
                                     </div>
                                 </div>
                             </form>

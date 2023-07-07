@@ -39,7 +39,7 @@ export const AboutCard = () => {
           <div className='p-box'>
             <img src={organic} className="img-fluid" alt=""></img>
             <h3>Fresh & 100% Organic</h3>
-            <p className='py-2'>Enjoy the same lowest prices as your local One Stop grocery store</p>
+            <p className='py-2'>provide the freshest & 100% organic products for our customers</p>
           </div>
         </div>
         <div className='card'>
