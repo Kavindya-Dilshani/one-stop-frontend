@@ -52,96 +52,96 @@ import milkpowder from '../../assets/images/milkpowder.png';
 
 
 const CardTileData: CardTileDetails[] = [
-    { title: 'Apple', image: Product1, price: 'Rs.300',path:'' },
-    { title: 'Bread', image: bread, price: 'Rs 150',path:'' },
-    { title: 'Cabbage', image: Product7, price: 'Rs 75',path:''},
-    { title: 'Grapes', image: Product5, price: 'Rs 550',path:''},
-    { title: 'Chicken', image: Product6, price: 'Rs 1500',path:''},
-    { title: 'Lemon', image: Product8, price: 'Rs 70',path:''},
-    { title: 'Eggs', image: Product3, price: 'Rs 50',path:'' },
-    { title: 'Onions', image: Product2, price: 'Rs 180',path:''},
+    { id: '1', title: 'Apple', image: Product1, price: '300', path: '' },
+    { id: '2', title: 'Bread', image: bread, price: '150', path: '' },
+    { id: '3', title: 'Cabbage', image: Product7, price: '75', path: '' },
+    { id: '4', title: 'Grapes', image: Product5, price: '550', path: '' },
+    { id: '5', title: 'Chicken', image: Product6, price: '1500', path: '' },
+    { id: '6', title: 'Lemon', image: Product8, price: '70', path: '' },
+    { id: '7', title: 'Eggs', image: Product3, price: '50', path: '' },
+    { id: '8', title: 'Onions', image: Product2, price: '180', path: '' },
 
 ];
 
 const CardDiscountData: CardTileDetails[] = [
-    { title: 'Strawberry', image: Strawberry, price: 'Rs 500',path:'' },
-    { title: 'Imorich Rocky Road', image: imorich, price: 'Rs 1150',path:'' },
-    { title: 'Pre Cut Whole Chicken Skinless', image:wholechicken , price: 'Rs 1650',path:'' },
-    { title: 'Jambola', image: jambola, price: 'Rs 380',path:'' },
-    { title: 'Pumpkin', image: pumpkin, price: 'Rs 250',path:''},
-    { title: 'Thalapath Cubes', image: thalapath, price: 'Rs 6290',path:'' },
+    { id: '9',title: 'Strawberry', image: Strawberry, price: '500', path: '' },
+    { id: '10',title: 'Imorich Rocky Road', image: imorich, price: '1150', path: '' },
+    { id: '11',title: 'Pre Cut Whole Chicken Skinless', image: wholechicken, price: '1650', path: '' },
+    { id: '12',title: 'Jambola', image: jambola, price: '380', path: '' },
+    { id: '13',title: 'Pumpkin', image: pumpkin, price: '250', path: '' },
+    { id: '14',title: 'Thalapath Cubes', image: thalapath, price: '6290', path: '' },
 
 ];
 
 const fruits: CardTileDetails[] = [
-    { title: 'Mango', image: mango,  price: 'Rs 150',path:'cart' },
-    { title: 'Pineapple', image: pineapple,  price: 'Rs 150',path:'' },
-    { title: 'Apple', image: Product1,  price: 'Rs 300',path:'' },
-    { title: 'Grapes', image: Product5,  price: 'Rs 550',path:'' },
-    { title: 'Banana', image: banana,  price: 'Rs 250',path:'' },
-    { title: 'Watermelon', image: watermelon,  price: 'Rs 250',path:'' },
-    { title: 'Orange', image: orange,  price: 'Rs 240',path:'' },
-    { title: 'Lemon', image: Product8,  price: 'Rs 70',path:'' }
+    { id: '15',title: 'Mango', image: mango, price: '150', path: 'cart' },
+    { id: '16',title: 'Pineapple', image: pineapple, price: '150', path: '' },
+    { id: '17',title: 'Apple', image: Product1, price: '300', path: '' },
+    { id: '18',title: 'Grapes', image: Product5, price: '550', path: '' },
+    { id: '19',title: 'Banana', image: banana, price: '250', path: '' },
+    { id: '20',title: 'Watermelon', image: watermelon, price: '250', path: '' },
+    { id: '21',title: 'Orange', image: orange, price: '240', path: '' },
+    { id: '22',title: 'Lemon', image: Product8, price: '70', path: '' }
 
 ];
 
 const vegetables: CardTileDetails[] = [
-    { title: 'Carrot', image: carrot, price: 'Rs 60',path:'' },
-    { title: 'Broccoli', image: broccoli, price: 'Rs 100',path:'' },
-    { title: 'Cabbage', image: Product7, price:'Rs 75',path:'' },
-    { title: 'Tomato', image: tomato, price: 'Rs 53', path:'' },
-    { title: 'Cucumber', image: cucumber, price: 'Rs 68',path:''},
-    { title: 'Beetroot', image: beetroot, price: 'Rs 26',path:'' },
-    { title: 'Leek', image: leek, price: 'Rs 46', path:'' },
-    { title: 'onion', image: Product2, price: 'Rs 180', path:'' }
+    { id: '23',title: 'Carrot', image: carrot, price: '60', path: '' },
+    { id: '24',title: 'Broccoli', image: broccoli, price: '100', path: '' },
+    { id: '25',title: 'Cabbage', image: Product7, price: '75', path: '' },
+    { id: '26',title: 'Tomato', image: tomato, price: '53', path: '' },
+    { id: '27',title: 'Cucumber', image: cucumber, price: '68', path: '' },
+    { id: '28',title: 'Beetroot', image: beetroot, price: '26', path: '' },
+    { id: '29',title: 'Leek', image: leek, price: '46', path: '' },
+    { id: '30',title: 'onion', image: Product2, price: '180', path: '' }
 
 ];
 
 const flour: CardTileDetails[] = [
-    { title: 'Rice Flour', image: riceflour, price: 'Rs 250',path:'' },
-    { title: 'Wheat Flour', image: wheatflour, price: 'Rs 280', path:'' },
-    { title: 'Kurakkan Flour', image: Kurakkanflour, price: 'Rs 190',path:'' },
-    { title: 'Atta Flour', image: attaflour, price: 'Rs 275',path:''},
-    { title: 'Ulundu Flour', image: ulunduflour, price: 'Rs 186',path:'' }
-    
+    { id: '31',title: 'Rice Flour', image: riceflour, price: '250', path: '' },
+    { id: '32',title: 'Wheat Flour', image: wheatflour, price: '280', path: '' },
+    { id: '33',title: 'Kurakkan Flour', image: Kurakkanflour, price: '190', path: '' },
+    { id: '34',title: 'Atta Flour', image: attaflour, price: '275', path: '' },
+    { id: '35',title: 'Ulundu Flour', image: ulunduflour, price: '186', path: '' }
+
 
 ];
 const meat: CardTileDetails[] = [
-    { title: 'Chicken', image: Product6, price: 'Rs 1500', path:'' },
-    { title: 'Beef', image: beef, price: 'Rs 2000', path:''},
-    { title: 'Fish', image: fish1, price: 'Rs 550', path:''},
-    { title: 'Prawns', image: prawns, price: 'Rs 1300', path:'' },
-    { title: 'Pork', image: pork, price: 'Rs 2500',path:''},
-    { title: 'Sausage', image: sausage, price: 'Rs 450', path:'' }
-    
+    { id: '36',title: 'Chicken', image: Product6, price: '1500', path: '' },
+    { id: '37',title: 'Beef', image: beef, price: '2000', path: '' },
+    { id: '38',title: 'Fish', image: fish1, price: '550', path: '' },
+    { id: '39',title: 'Prawns', image: prawns, price: '1300', path: '' },
+    { id: '40',title: 'Pork', image: pork, price: '2500', path: '' },
+    { id: '41',title: 'Sausage', image: sausage, price: '450', path: '' }
+
 
 ];
 
 const bakery: CardTileDetails[] = [
-    { title: 'Bread', image: bread, price: 'Rs 150', path:''},
-    { title: 'Buns', image: buns, price: 'Rs 80', path:''},
-    { title: 'Donuts', image: donut, price: 'Rs 120', path:'' },
-    { title: 'Croissant', image: croissant, price: 'Rs 180',path:'' },
-    { title: 'Cake', image: cake, price: 'Rs 400',path:''},
-    { title: 'Cookies', image: cookies, price: 'Rs 50', path:''},
-    { title: 'Brownies', image: brownies, price: 'Rs 240',path:'' },
-    { title: 'Cupcakes', image: cupcake, price: 'Rs 150', path:'' }
-    
+    { id: '42',title: 'Bread', image: bread, price: '150', path: '' },
+    { id: '43',title: 'Buns', image: buns, price: '80', path: '' },
+    { id: '44',title: 'Donuts', image: donut, price: '120', path: '' },
+    { id: '45',title: 'Croissant', image: croissant, price: '180', path: '' },
+    { id: '46',title: 'Cake', image: cake, price: '400', path: '' },
+    { id: '47',title: 'Cookies', image: cookies, price: '50', path: '' },
+    { id: '48',title: 'Brownies', image: brownies, price: '240', path: '' },
+    { id: '49',title: 'Cupcakes', image: cupcake, price: '150', path: '' }
+
 
 ];
 
 const diary: CardTileDetails[] = [
-    { title: 'Cheese', image: cheese, price: 'Rs 2000', path:'' },
-    { title: 'Eggs', image: Product3, price: 'Rs 50', path:'' },
-    { title: 'Milk', image: milk, price: 'Rs 1000', path:'' },
-    { title: 'Yogurt', image: yogurt, price: 'Rs 80',path:''},
-    { title: 'Butter', image: butter, price: 'Rs 1300', path:'' },
-    { title: 'Curd', image: curd, price: 'Rs 500',path:''},
-    { title: 'Ghee', image: ghee, price: 'Rs 2000',path:'' },
-    { title: 'Milk Powder', image: milkpowder, price: 'Rs 800',path:'' }
-    
+    { id: '50',title: 'Cheese', image: cheese, price: '2000', path: '' },
+    { id: '51',title: 'Eggs', image: Product3, price: '50', path: '' },
+    { id: '52',title: 'Milk', image: milk, price: '1000', path: '' },
+    { id: '53',title: 'Yogurt', image: yogurt, price: '80', path: '' },
+    { id: '54',title: 'Butter', image: butter, price: '1300', path: '' },
+    { id: '55',title: 'Curd', image: curd, price: '500', path: '' },
+    { id: '56',title: 'Ghee', image: ghee, price: '2000', path: '' },
+    { id: '58',title: 'Milk Powder', image: milkpowder, price: '800', path: '' }
+
 
 ];
 
 
-export const CardTileListConfig = { CardTileData,CardDiscountData,fruits, vegetables, flour,meat, bakery, diary };
+export const CardTileListConfig = { CardTileData, CardDiscountData, fruits, vegetables, flour, meat, bakery, diary };

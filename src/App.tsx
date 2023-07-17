@@ -17,9 +17,6 @@ import { CheckOut } from './pages/shop/components/checkout/CheckOut';
 import { CartProvider } from './utilities/cart/CartProvider';
 import {Error} from './core/404/Error';
 
-
-
-
 function App() {
   return (
     <div className="App">

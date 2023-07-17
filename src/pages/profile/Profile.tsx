@@ -2,6 +2,8 @@ import './Profile.css'
 
 export const Profile = () => {
     return (
-        <div>Profile</div>
+        <div className='Profile-name'>
+        <button type="submit" className="btn btn-primary">Log Out </button>
+        </div>
     )
 }

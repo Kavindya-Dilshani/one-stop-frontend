@@ -2,3 +2,27 @@
     width: 70px;
     height: 40px;
 }
+
+.contact-form{
+        background-color: white;
+        padding: 10px 10px;
+        margin-left: 5rem;
+        padding-top: 2rem;
+        box-shadow: 1px 2px 11px 4px rgb(14 55 54/ 15%);
+    }
+.contact-form input{
+    background-color: whitesmoke;
+}
+
+.contact-form h3{
+    color:forestgreen;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.contact-form label {
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ 
