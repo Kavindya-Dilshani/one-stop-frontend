@@ -5,11 +5,21 @@ import { Button } from "react-bootstrap";
 import './ShopDetails.css';
 import { CardTileDetails } from "../../shared/models/CardTileListModels";
 import { CardTileListConfig } from "../../utilities/config/CardTileListConfig";
+import { useCart } from "../../utilities/cart/CartContext";
 
 
 export const ShopDetails = () => {
+    const { addItem } = useCart();
     const location = useLocation();
     const [cards, setGoods] = useState<CardTileDetails[]>();
+
+
+    const addItemHandler = (item: CardTileDetails) => {
+        if (item) {
+            const mappedItem = { itemId: item.id, itemName: item.title, itemPrice: item.price, imageSource: item.image, quantity: 1, totalPrice: parseInt(item.price) };
+            addItem(mappedItem);
+        }
+    }
 
     useEffect(() => {
         const activePath = location.pathname;
@@ -73,17 +83,17 @@ export const ShopDetails = () => {
                                                             </ul>
                                                             <div className='details-title text-center'>
                                                                 <h3 className='fs-5'>{_cards.title}</h3>
-                                                                        <div className='details-price text-center'>
+                                                                <div className='details-price text-center'>
                                                                     <h3 className='fs-5'>{_cards.price}</h3>
-                                                                        <div className='details-button'>
-                                                                        <Link to={_cards.path}><Button variant="primary">Add to Cart</Button></Link>
-                                                                        </div>
+                                                                    <div className='details-button'>
+                                                                        <Link to={_cards.path}><Button variant="primary" onClick={() => addItemHandler(_cards)}>Add to Cart</Button></Link>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </div>
                                         );
                                     })
                                     }

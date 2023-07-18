@@ -7,7 +7,7 @@ import noodles from '../../assets/images/noodles.png';
 import teapouch from '../../assets/images/teapouch.png';
 
 const CardListData: CardListDetails[] = [
-    { id:'59',title: 'Papaya', image: papaya, discount: 'Rs 50',price: ' 40',path:'' },
+    { id:'59',title: 'Papaya', image: papaya, discount: ' 50',price: ' 40',path:'' },
     { id:'60',title: 'Coconut', image: coconut, discount: ' 100',price: ' 90',path:'' },
     { id:'61',title: 'Garlic', image: garlic, discount: ' 70',price: ' 68',path:'' },
     { id:'62',title: 'Avocado', image: avocado, discount: ' 100',price: ' 95',path:'' },

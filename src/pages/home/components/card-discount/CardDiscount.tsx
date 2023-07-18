@@ -2,11 +2,22 @@ import { Button } from 'react-bootstrap';
 import { CardTileListConfig } from '../../../../utilities/config/CardTileListConfig';
 import './CardDiscount.css';
 import { FaStar } from "react-icons/fa";
+import { useCart } from '../../../../utilities/cart/CartContext';
+import { CardTileDetails } from '../../../../shared/models/CardTileListModels';
 
 
 
 export const CardDiscount = () => {
+    const { addItem } = useCart();
     const cards = CardTileListConfig.CardDiscountData;
+
+    const addItemHandler = (item: CardTileDetails) => {
+        if (item) {
+            const mappedItem = { itemId: item.id, itemName: item.title, itemPrice: item.price, imageSource: item.image, quantity: 1, totalPrice: parseInt(item.price) };
+            addItem(mappedItem);
+        }
+    }
+
     return (
         <>
             <section className='CardDiscount' id='CardDiscount'>
@@ -34,7 +45,7 @@ export const CardDiscount = () => {
                                                             <div className='category-price text-center'>
                                                                 <h3 className='fs-5'>{_cards.price}</h3>
                                                                 <div className='category-button'>
-                                                                <Button variant="primary">Add to Cart</Button>
+                                                                <Button variant="primary" onClick={() => addItemHandler(_cards)}>Add to Cart</Button>
                                                                 </div>
                                                                 </div>
                                                             </div>
