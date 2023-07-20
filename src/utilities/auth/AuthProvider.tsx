@@ -13,7 +13,7 @@ export const AuthProvider = (props: any) => {
     useEffect(() => {
         const loginStatus = localStorage.getItem('loginStatus');
         if (loginStatus) {
-            setIsAuthenticated(true);
+            setIsAuthenticated(false);
             const useDetails = localStorage.getItem('userDetails');
             if (useDetails) {
                 setUser(JSON.parse(useDetails));

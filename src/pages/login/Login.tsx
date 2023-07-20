@@ -32,7 +32,7 @@ export const Login = () => {
                         </div>
                         <div className="row">
                             <div className="col-md-6 col-sm-12 col-xs-12">
-                                <div className="Signup-form">
+                                <div className="login-form">
                                     <div className='login-title' />
                                     <h3 className='text-start fs-3'>Sign In</h3>
 
@@ -59,11 +59,13 @@ export const Login = () => {
                                             </div>
                                             <div className="col-12">
                                                 <button type="submit" className="btn btn-primary">Login</button>
-                                                <div className="my-4">
+                                                <div className="text my-4">
+                                                <p>OR</p>
+                                                 </div>
+                                                <div className=" google-button my-4 ">
                                                     <GoogleButton
-                                                        onClick={handleGoogleSignIn} />
-
-                                                    <p className=" mt-4 pt-1 mb-0 ">Don't have an account?
+                                                        onClick={handleGoogleSignIn}/>
+                                                    <p className=" mt-4 pt-1 mb-0">Don't have an account?
                                                         <Link to='/signup'><span className="link-danger mx-2">Register</span></Link></p>
                                                 </div>
                                             </div>

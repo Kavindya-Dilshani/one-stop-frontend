@@ -84,7 +84,7 @@ export const ShopDetails = () => {
                                                             <div className='details-title text-center'>
                                                                 <h3 className='fs-5'>{_cards.title}</h3>
                                                                 <div className='details-price text-center'>
-                                                                    <h3 className='fs-5'>{_cards.price}</h3>
+                                                                    <h3 className='fs-5'>Rs:{_cards.price}</h3>
                                                                     <div className='details-button'>
                                                                         <Link to={_cards.path}><Button variant="primary" onClick={() => addItemHandler(_cards)}>Add to Cart</Button></Link>
                                                                     </div>

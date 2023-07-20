@@ -43,7 +43,7 @@ export const CardDiscount = () => {
                                                                 <a href='#'><i className='fab fa-facebook-f'></i><FaStar /></a>
                                                             </ul>
                                                             <div className='category-price text-center'>
-                                                                <h3 className='fs-5'>{_cards.price}</h3>
+                                                                <h3 className='fs-5'>Rs:{_cards.price}</h3>
                                                                 <div className='category-button'>
                                                                 <Button variant="primary" onClick={() => addItemHandler(_cards)}>Add to Cart</Button>
                                                                 </div>

@@ -2,7 +2,6 @@ import { AboutUs} from '../../pages/about/components/about-us/AboutUs';
 import { Banner } from '../home/components/banner/Banner';
 import { Testimonial } from '../home/components/testimonial/Testimonial';
 import {AboutCard} from './components/about-card/AboutCard';
-import { Counter} from './components/counter/Counter';
 import { TeamCard } from './components/team-card/TeamCard';
 import './About.css';
 
@@ -15,7 +14,6 @@ export const About = () => {
                 <AboutUs />
                 <AboutCard/>
                 <h3 className='py-4 '></h3>
-                <Counter/>
                 <h2 className='py-4 pb-3 fs-1  text-center'> Meet Our Expert Team</h2>
                 <TeamCard/>
                 <h3 className='py-4 '></h3>

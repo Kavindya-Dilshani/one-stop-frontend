@@ -44,7 +44,7 @@ export const CardTileList = () => {
                                                         <div className='category-title text-center'>
                                                             <h3 className='fs-5'>{_card.title}</h3>
                                                             <div className='category-price text-center'>
-                                                                <h3 className='fs-5'>{_card.price}</h3>
+                                                                <h3 className='fs-5'>Rs:{_card.price}</h3>
                                                                 <div className='category-button'>
                                                                     <Button variant="primary" onClick={() => addItemHandler(_card)}>Add to Cart</Button>
                                                                     <div className='discount-tag'>

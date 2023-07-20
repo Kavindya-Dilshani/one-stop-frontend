@@ -4,41 +4,7 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 
-export const Signup = () => {
-    /* const[userFirstName,setUserFirstName] = useState("");
-     const[userLastName,setUserLastName] = useState("");
-     const[userEmail,setUserEmail] = useState("");
-     const[userPassword,setUserPassword] = useState("");*/
-
-    const validateEmail = (email: any)   => {
-        const errors = {}
-
-        if (!email) {
-            console.log("Email required");
-            return false;
-        } 
-        else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email)) {
-            console.log('Invalid email address');
-            return false;
-        }
-
-        return true;
-    }
-
-    /*
-        const CleanUpFormData = () => {
-            setUserFirstName("")
-            setUserLastName('')
-            setUserEmail("")
-            setUserPassword("")
-    
-        };  
-    
-        const RegisterFunction = () => {
-            validateEmail(userEmail);
-            console.log(userFirstName,userLastName,userEmail,userPassword,);
-            CleanUpFormData(); 
-        };*/
+export const Signup =  () => {
 
     return (
         <div className="Signup-area pb-5 pt-5">
@@ -64,25 +30,20 @@ export const Signup = () => {
                                 <div className="row mb-3 py-2">
                                     <label htmlFor="inputFirstName" className="col-sm-3 col-form-label">Last Name</label>
                                     <div className="col-sm-8">
-                                        <input type="name" className="form-control" id="inputLastName"
-                                        //onChange={(e) => setUserLastName(e.target.value)}
-                                        />
+                                        <input type="name" className="form-control" id="inputLastName"  />
                                     </div>
                                 </div>
                                 <div className="row mb-3 py-2">
                                     <label htmlFor="inputEmail" className="col-sm-3 col-form-label">Email</label>
                                     <div className="col-sm-8">
                                         <input type="email" className="form-control" id="inputEmail"
-                                        //onChange={(e) => setUserEmail(value)}
                                         />
                                     </div>
                                 </div>
                                 <div className="row mb-3 py-2 was-validated">
                                     <label htmlFor="inputPassword3" className="col-sm-3 col-form-label">Password</label>
                                     <div className="col-sm-8">
-                                        <input type="password" className="form-control" id="inputPassword3" /*value={userPassword}*/
-                                        //onChange={(event) => setUserPassword(event.target.value)} required 
-                                        />
+                                        <input type="password" className="form-control" id="inputPassword3" required />
                                         <div className='invalid-feedback'>
                                             Password must be 8 characters
                                         </div>

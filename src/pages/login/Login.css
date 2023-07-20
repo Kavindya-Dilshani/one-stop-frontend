@@ -35,6 +35,9 @@
     border-color: forestgreen;
     margin-left: 12rem;
 }
+ .google-button{
+    margin-left: 10rem;
+}
 
 .image-area h2{
     text-align: center;
@@ -51,11 +54,13 @@
    padding-bottom: 2rem;
 }
 
-   p{
-    text-align: center;
-    margin-right: 7rem;
+.google-button  p{
+    margin-right: 14rem;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
-
+.text p{
+    text-align: center;
+    margin-right: 6rem;
+}

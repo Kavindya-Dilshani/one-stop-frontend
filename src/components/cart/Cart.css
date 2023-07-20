@@ -1,4 +1,4 @@
-.card img{
+.card-body img{
     height: 130px;
 }
 
@@ -16,5 +16,6 @@
 
 .bank-body img {
     margin-left: 5rem;
+    height: 130px;
 }
 

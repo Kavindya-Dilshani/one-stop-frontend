@@ -34,9 +34,9 @@ export const CardListList = () => {
                                                             <a href='#'><i className='fab fa-facebook-f'></i><FaStar /></a>
                                                         </ul>
                                                         <div className='cardList-discount d-flex'>
-                                                            <h3 className='text-decoration-line-through'>{_item.discount}</h3>
+                                                            <h3 className='text-decoration-line-through'>Rs:{_item.discount}</h3>
                                                             <div className='cardList-price d-flex'>
-                                                                <h3>{_item.price}</h3>
+                                                                <h3>Rs:{_item.price}</h3>
                                                             </div>
                                                         </div>
                                                     </div>
