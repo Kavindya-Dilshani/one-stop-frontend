@@ -46,12 +46,13 @@ export const Header = () => {
                             </ul>
                         <form className=" d-flex">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button className="btn btn-outline-success" type="submit"><i className='fa fa-search'></i><FaSistrix/>
-                            </button>
+                           <button className="btn btn-outline-success" type="submit"><i className='fa fa-search'></i><FaSistrix/>
+                            </button> 
                             </form>
+                           
                         <div className='icons'>
-                        <Link to='/login'><i className='fa fa-user me-4'></i><FaUserAlt /></Link>
-                        <Link to='/cart'><i className='fa fa-shopping-cart me-4'></i><FaShoppingCart /> </Link>
+                        <Link to='/login'><i className='fa fa-user me-4'></i><FaUserAlt style={{ color: 'black' }} /></Link>
+                        <Link to='/cart'><i className='fa fa-shopping-cart me-4'></i><FaShoppingCart style={{ color: 'black' }}/> </Link>
                         </div>
                     </div>
                 </div>

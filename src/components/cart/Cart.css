@@ -19,3 +19,13 @@
     height: 130px;
 }
 
+.card-body .btn{
+    color:white;
+    background-color: forestgreen;
+    border-color: forestgreen;
+    margin-left: 4rem;
+    padding: 0.5rem 1rem;
+    width: 10rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}

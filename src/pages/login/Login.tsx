@@ -6,6 +6,7 @@ import { useAuth } from '../../utilities/auth/AuthContext';
 import { useEffect } from 'react';
 
 
+
 export const Login = () => {
     const { googleSignIn, isAuthenticated } = useAuth();
     const navigate = useNavigate();
@@ -14,7 +15,7 @@ export const Login = () => {
         if (isAuthenticated) {
             navigate('/home');
         }
-    }, [isAuthenticated])
+    }, [isAuthenticated])                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 
 
     const handleGoogleSignIn = async () => {
@@ -57,8 +58,8 @@ export const Login = () => {
                                                     Remember me
                                                 </label>
                                             </div>
-                                            <div className="col-12">
-                                                <button type="submit" className="btn btn-primary">Login</button>
+                                            { <div className="col-12">
+                                            <Link to='/admin-Dashboard'><button type="submit" className="btn btn-primary">Login</button></Link>
                                                 <div className="text my-4">
                                                 <p>OR</p>
                                                  </div>
@@ -68,7 +69,7 @@ export const Login = () => {
                                                     <p className=" mt-4 pt-1 mb-0">Don't have an account?
                                                         <Link to='/signup'><span className="link-danger mx-2">Register</span></Link></p>
                                                 </div>
-                                            </div>
+                                            </div> }
                                         </div>
                                     </form>
                                 </div>

@@ -1,9 +1,20 @@
-import './Profile.css'
+
+import { useAuth } from '../../utilities/auth/AuthContext';
+
 
 export const Profile = () => {
-    return (
-        <div className='Profile-name'>
-        <button type="submit" className="btn btn-primary">Log Out </button>
-        </div>
-    )
-}
+  const {  logout } = useAuth();
+
+  const handleLogout = () => {
+    logout();
+  };
+
+  return (
+    <div>
+      <h1>Profile Page</h1>
+      <button onClick={handleLogout}>Logout</button>
+    </div>
+  );
+};
+
+export default Profile;

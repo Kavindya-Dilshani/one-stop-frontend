@@ -21,13 +21,13 @@ export const Home = () => {
                 <CardTileList />
                 <h3 className='py-4 '></h3>
                 <OfferFishBanner />
-                <h4 className='py-5 text-center'> Top Deals Discount</h4>
+                <h4 className='py-5 text-center fs-1'> Top Deals Discount</h4>
                 <CardListList />
                 <h3 className='py-5 '></h3>
                 <OfferFruitBanner />
-                <h4 className='py-5 text-center'> Recently Landed</h4>
+                <h4 className='py-5 text-center fs-1'> Recently Landed</h4>
                 <CardDiscount />
-                <h2 className='py-5 text-center'> Our Client Say</h2>
+                <h2 className='py-5 text-center fs-1'> Our Client Say</h2>
                 <Testimonial />
                 <Banner />
             </div>

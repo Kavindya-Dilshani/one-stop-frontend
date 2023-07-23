@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import {  useEffect, useState } from "react";
 import { AuthContext } from "./AuthContext";
 import { GoogleAuthProvider, User, signInWithPopup, } from "firebase/auth";
 import { auth } from "../../shared/services/Firebase";
@@ -19,7 +19,7 @@ export const AuthProvider = (props: any) => {
                 setUser(JSON.parse(useDetails));
             }
         } else {
-            setIsAuthenticated(false);
+            setIsAuthenticated(true);
         }
     }, [])
 
@@ -51,6 +51,7 @@ export const AuthProvider = (props: any) => {
         setIsAuthenticated(false);
         localStorage.removeItem('loginStatus');
         localStorage.removeItem('userDetails');
+        navigate("/login");
     }
 
     return (
